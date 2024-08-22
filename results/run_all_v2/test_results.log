@@ -1,0 +1,1643 @@
+Testing model: bigcode_starcoder2-7b
+(id=1.1)Expected: 1, got: 1.0
+(id=1.1)Expected: 2, got: 2.0
+Error while executing test: 'area'
+(id=1.2)Expected: 1, got: 'area'
+Error while executing test: 'area'
+(id=1.2)Expected: 2, got: 'area'
+Error while executing test: 'area'
+(id=1.3)Expected: 1, got: 'area'
+Error while executing test: 'area'
+(id=1.3)Expected: 2, got: 'area'
+(id=1.4)Expected: 1, got: 1.0
+(id=1.4)Expected: 2, got: 2.0
+Error while executing test: name 'np' is not defined
+(id=1.5)Expected: 1, got: name 'np' is not defined
+Error while executing test: name 'np' is not defined
+(id=1.5)Expected: 2, got: name 'np' is not defined
+Error while executing test: name 'mean' is not defined
+(id=1.6)Expected: 1, got: name 'mean' is not defined
+Error while executing test: name 'mean' is not defined
+(id=1.6)Expected: 2, got: name 'mean' is not defined
+(id=2.1)Expected: 0.25, got: 0.0
+(id=2.1)Expected: 0.5, got: 0.2608695652173913
+Error while executing test: name 'read_shapefile' is not defined
+(id=2.2)Expected: 0.25, got: name 'read_shapefile' is not defined
+Error while executing test: name 'read_shapefile' is not defined
+(id=2.2)Expected: 0.5, got: name 'read_shapefile' is not defined
+Error while executing test: name 'get_polygons' is not defined
+(id=2.3)Expected: 0.25, got: name 'get_polygons' is not defined
+Error while executing test: name 'get_polygons' is not defined
+(id=2.3)Expected: 0.5, got: name 'get_polygons' is not defined
+Error while executing code: name 'buildings_gdf' is not defined
+Error while executing test: agg function failed [how->sum,dtype->geometry]
+(id=2.5)Expected: 0.25, got: agg function failed [how->sum,dtype->geometry]
+Error while executing test: agg function failed [how->sum,dtype->geometry]
+(id=2.5)Expected: 0.5, got: agg function failed [how->sum,dtype->geometry]
+Error while executing test: "['parcel_id'] not found in axis"
+(id=2.6)Expected: 0.25, got: "['parcel_id'] not found in axis"
+Error while executing test: "['parcel_id'] not found in axis"
+(id=2.6)Expected: 0.5, got: "['parcel_id'] not found in axis"
+Error while executing test: Concat operation has resulted in multiple columns using the geometry column name 'geometry'.
+Please ensure this column from the first DataFrame is not repeated.
+(id=3.1)Expected: 3, got: Concat operation has resulted in multiple columns using the geometry column name 'geometry'.
+Please ensure this column from the first DataFrame is not repeated.
+Error while executing test: Concat operation has resulted in multiple columns using the geometry column name 'geometry'.
+Please ensure this column from the first DataFrame is not repeated.
+(id=3.1)Expected: 2, got: Concat operation has resulted in multiple columns using the geometry column name 'geometry'.
+Please ensure this column from the first DataFrame is not repeated.
+Error while executing code: expected an indented block (<string>, line 27)
+(id=3.3)Expected: 3, got: 0
+(id=3.3)Expected: 2, got: 2
+Error while executing code: module 'geopandas' has no attribute 'GeoDataFrames'
+(id=3.5)Expected: 3, got: 1.0
+(id=3.5)Expected: 2, got: 1.0
+Error while executing test: 'count'
+(id=3.6)Expected: 3, got: 'count'
+Error while executing test: 'count'
+(id=3.6)Expected: 2, got: 'count'
+Error while executing test: points_from_xy() missing 1 required positional argument: 'y'
+(id=4.1)Expected: True, got: points_from_xy() missing 1 required positional argument: 'y'
+Error while executing test: points_from_xy() missing 1 required positional argument: 'y'
+(id=4.1)Expected: False, got: points_from_xy() missing 1 required positional argument: 'y'
+(id=4.2)Expected: True, got: True
+(id=4.2)Expected: False, got: False
+(id=4.3)Expected: True, got: True
+(id=4.3)Expected: False, got: False
+Error while executing test: points_from_xy() missing 1 required positional argument: 'y'
+(id=4.4)Expected: True, got: points_from_xy() missing 1 required positional argument: 'y'
+Error while executing test: points_from_xy() missing 1 required positional argument: 'y'
+(id=4.4)Expected: False, got: points_from_xy() missing 1 required positional argument: 'y'
+(id=4.5)Expected: True, got: True
+(id=4.5)Expected: False, got: False
+(id=4.6)Expected: True, got: True
+(id=4.6)Expected: False, got: False
+(id=5)Expected: POINT (0 1), got: POINT (0 1)
+(id=5)Expected: POINT (1 0), got: POINT (1 0)
+(id=6.1)Expected: True, got: True
+(id=6.1)Expected: False, got: False
+(id=6.2)Expected: True, got: True
+(id=6.2)Expected: False, got: False
+(id=7.1)Expected: True, got: True
+(id=7.1)Expected: False, got: False
+(id=7.1)Expected: False, got: False
+(id=7.2)Expected: True, got: True
+(id=7.2)Expected: False, got: False
+(id=7.2)Expected: False, got: True
+(id=8.1)Expected: 0, got: 0.0
+(id=8.1)Expected: 1, got: 1.0
+(id=8.1)Expected: 1, got: 1.0
+(id=8.2)Expected: 0, got: 0.0
+(id=8.2)Expected: 1, got: 0.25
+(id=8.2)Expected: 1, got: 0.25
+(id=9.1)Expected: 81757ffffffffff, got: 81757ffffffffff
+(id=9.1)Expected: 82754ffffffffff, got: 82754ffffffffff
+(id=9.1)Expected: 83754efffffffff, got: 83754efffffffff
+(id=9.2)Expected: 81757ffffffffff, got: 81757ffffffffff
+(id=9.2)Expected: 82754ffffffffff, got: 82754ffffffffff
+(id=9.2)Expected: 83754efffffffff, got: 83754efffffffff
+(id=10)Expected: POLYGON ((1.2456980510072817 -1.667852447043259, 1.9211969045935866 -0.2548735255288649, 1.2017635601567977 0.9361637645983679, -0.1602034369452549 0.7197982113703898, -0.8199508788179312 -0.6593876817348934, -0.1336889125916513 -1.8554926185476668, 1.2456980510072817 -1.667852447043259)), got: POLYGON ((1.2456980510072817 -1.667852447043259, 1.9211969045935866 -0.2548735255288649, 1.2017635601567977 0.9361637645983679, -0.1602034369452549 0.7197982113703898, -0.8199508788179312 -0.6593876817348934, -0.1336889125916513 -1.8554926185476668, 1.2456980510072817 -1.667852447043259))
+(id=10)Expected: POLYGON ((0.6243813819095283 0.1087813119690757, 0.7142709255340668 0.6751953147370924, 0.3201757867318896 0.9787908052924386, -0.1602034369452549 0.7197982113703898, -0.2508702091201494 0.1583300627614263, 0.1395985639515215 -0.1490765992924194, 0.6243813819095283 0.1087813119690757)), got: POLYGON ((0.6243813819095283 0.1087813119690757, 0.7142709255340668 0.6751953147370924, 0.3201757867318896 0.9787908052924386, -0.1602034369452549 0.7197982113703898, -0.2508702091201494 0.1583300627614263, 0.1395985639515215 -0.1490765992924194, 0.6243813819095283 0.1087813119690757))
+Error while executing test: Argument 'geojson' has incorrect type (expected dict, got Polygon)
+(id=11)Expected: 396, got: Argument 'geojson' has incorrect type (expected dict, got Polygon)
+Error while executing test: Argument 'geojson' has incorrect type (expected dict, got Polygon)
+(id=11)Expected: 1707, got: Argument 'geojson' has incorrect type (expected dict, got Polygon)
+Error while executing test: Argument 'geojson' has incorrect type (expected dict, got Polygon)
+(id=11)Expected: 1, got: Argument 'geojson' has incorrect type (expected dict, got Polygon)
+Error while executing test: (<class 'geopandas.geoseries.GeoSeries'>, <class 'str'>)
+(id=12.1.1)Expected: True, got: (<class 'geopandas.geoseries.GeoSeries'>, <class 'str'>)
+Error while executing test: (<class 'geopandas.geoseries.GeoSeries'>, <class 'str'>)
+(id=12.1.1)Expected: True, got: (<class 'geopandas.geoseries.GeoSeries'>, <class 'str'>)
+Error while executing test: (<class 'geopandas.geoseries.GeoSeries'>, <class 'str'>)
+(id=12.1.1)Expected: False, got: (<class 'geopandas.geoseries.GeoSeries'>, <class 'str'>)
+Error while executing test: name 'point_in_polygon' is not defined
+(id=12.1.2)Expected: True, got: name 'point_in_polygon' is not defined
+Error while executing test: name 'point_in_polygon' is not defined
+(id=12.1.2)Expected: True, got: name 'point_in_polygon' is not defined
+Error while executing test: name 'point_in_polygon' is not defined
+(id=12.1.2)Expected: False, got: name 'point_in_polygon' is not defined
+Error while executing test: name 'point_in_polygon' is not defined
+(id=12.1.3)Expected: True, got: name 'point_in_polygon' is not defined
+Error while executing test: name 'point_in_polygon' is not defined
+(id=12.1.3)Expected: True, got: name 'point_in_polygon' is not defined
+Error while executing test: name 'point_in_polygon' is not defined
+(id=12.1.3)Expected: False, got: name 'point_in_polygon' is not defined
+(id=12.1.4)Expected: True, got: True
+(id=12.1.4)Expected: True, got: True
+(id=12.1.4)Expected: False, got: False
+(id=12.1.5)Expected: True, got: True
+(id=12.1.5)Expected: True, got: True
+(id=12.1.5)Expected: False, got: False
+(id=12.1.6)Expected: True, got: True
+(id=12.1.6)Expected: True, got: True
+(id=12.1.6)Expected: False, got: False
+(id=12.2.1)Expected: True, got: True
+(id=12.2.1)Expected: True, got: True
+(id=12.2.1)Expected: False, got: False
+Error while executing test: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+(id=12.2.2)Expected: True, got: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+Error while executing test: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+(id=12.2.2)Expected: True, got: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+Error while executing test: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+(id=12.2.2)Expected: False, got: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+Error while executing test: name 'city_name' is not defined
+(id=12.2.3)Expected: True, got: name 'city_name' is not defined
+Error while executing test: name 'city_name' is not defined
+(id=12.2.3)Expected: True, got: name 'city_name' is not defined
+Error while executing test: name 'city_name' is not defined
+(id=12.2.3)Expected: False, got: name 'city_name' is not defined
+(id=12.2.4)Expected: True, got: True
+Error while executing test: check_point() got an unexpected keyword argument 'name'
+(id=12.2.4)Expected: True, got: check_point() got an unexpected keyword argument 'name'
+(id=12.2.4)Expected: False, got: False
+Error while executing test: 'str' object has no attribute 'geometry'
+(id=12.2.5)Expected: True, got: 'str' object has no attribute 'geometry'
+Error while executing test: check_point() got an unexpected keyword argument 'name'
+(id=12.2.5)Expected: True, got: check_point() got an unexpected keyword argument 'name'
+Error while executing test: 'str' object has no attribute 'geometry'
+(id=12.2.5)Expected: False, got: 'str' object has no attribute 'geometry'
+Error while executing test: 'str' object has no attribute 'geometry'
+(id=12.2.6)Expected: True, got: 'str' object has no attribute 'geometry'
+Error while executing test: check_point() got an unexpected keyword argument 'name'
+(id=12.2.6)Expected: True, got: check_point() got an unexpected keyword argument 'name'
+Error while executing test: 'str' object has no attribute 'geometry'
+(id=12.2.6)Expected: False, got: 'str' object has no attribute 'geometry'
+(id=13.1.1)Expected: Portugal, got: False
+(id=13.1.1)Expected: Germany, got: False
+Error while executing test: name 'point_in_polygon' is not defined
+(id=13.1.2)Expected: Portugal, got: name 'point_in_polygon' is not defined
+Error while executing test: name 'point_in_polygon' is not defined
+(id=13.1.2)Expected: Germany, got: name 'point_in_polygon' is not defined
+Error while executing test: name 'point_in_polygon' is not defined
+(id=13.1.3)Expected: Portugal, got: name 'point_in_polygon' is not defined
+Error while executing test: name 'point_in_polygon' is not defined
+(id=13.1.3)Expected: Germany, got: name 'point_in_polygon' is not defined
+(id=13.1.4)Expected: Portugal, got: Portugal
+(id=13.1.4)Expected: Germany, got: Germany
+(id=13.1.5)Expected: Portugal, got: Portugal
+(id=13.1.5)Expected: Germany, got: Germany
+(id=13.1.6)Expected: Portugal, got: Portugal
+(id=13.1.6)Expected: Germany, got: Germany
+Error while executing code: name 'df' is not defined
+(id=13.2.2)Expected: Portugal, got: Portugal
+(id=13.2.2)Expected: Germany, got: Germany
+Error while executing test: name 'point_in_polygon' is not defined
+(id=13.2.3)Expected: Portugal, got: name 'point_in_polygon' is not defined
+Error while executing test: name 'point_in_polygon' is not defined
+(id=13.2.3)Expected: Germany, got: name 'point_in_polygon' is not defined
+(id=13.2.4)Expected: Portugal, got: Portugal
+(id=13.2.4)Expected: Germany, got: Germany
+(id=13.2.5)Expected: Portugal, got: None
+(id=13.2.5)Expected: Germany, got: None
+(id=13.2.6)Expected: Portugal, got: Portugal
+(id=13.2.6)Expected: Germany, got: Germany
+Error while executing test: geocode_to_gdf() got an unexpected keyword argument 'provider'
+(id=14.1)Expected: Portugal, got: geocode_to_gdf() got an unexpected keyword argument 'provider'
+Error while executing test: geocode_to_gdf() got an unexpected keyword argument 'provider'
+(id=14.1)Expected: Germany, got: geocode_to_gdf() got an unexpected keyword argument 'provider'
+Error while executing test: query must be a string or dict or list
+(id=14.2)Expected: Portugal, got: query must be a string or dict or list
+Error while executing test: query must be a string or dict or list
+(id=14.2)Expected: Germany, got: query must be a string or dict or list
+Error while executing test: each query must be a dict or a string
+(id=15.1)Expected: True, got: each query must be a dict or a string
+Error while executing test: each query must be a dict or a string
+(id=15.1)Expected: True, got: each query must be a dict or a string
+Error while executing test: each query must be a dict or a string
+(id=15.1)Expected: False, got: each query must be a dict or a string
+(id=15.2)Expected: True, got: True
+(id=15.2)Expected: True, got: True
+(id=15.2)Expected: False, got: False
+Error while executing test: 'Series' object is not callable
+(id=16.1)Expected: 16.24264, got: 'Series' object is not callable
+(id=16.3)Expected: 16.24264, got: 0.0
+Error while executing test: 'Series' object is not callable
+(id=16.4)Expected: 16.24264, got: 'Series' object is not callable
+(id=16.6)Expected: 16.24264, got: 0.0
+(id=17.1)Expected: 900.0, got: 0 days 00:15:00
+(id=17.3)Expected: 900.0, got: 0 days 00:15:00
+(id=17.4)Expected: 900.0, got: 0.0
+(id=17.6)Expected: 900.0, got: 0.0
+Error while executing test: 
+(id=18.1)Expected: 0.018047, got: 
+Error while executing test: unsupported operand type(s) for -: 'NoneType' and 'float'
+(id=18.3)Expected: 0.018047, got: unsupported operand type(s) for -: 'NoneType' and 'float'
+Error while executing test: 
+(id=18.4)Expected: 0.018047, got: 
+(id=18.6)Expected: 0.018047, got: 0.0
+Error while executing code: name 'Polygon' is not defined
+(id=20.1)Expected: (51.1089776, 17.0326689), got: POINT (16.99607712452385 51.1276929157714)
+(id=20.1)Expected: (38.7077507, -9.1365919), got: POINT (-9.156114494552314 38.74267407908484)
+(id=20.1)Expected: (52.5108638, 13.3989421), got: POINT (13.402316127267671 52.50149399559666)
+(id=20.1)Expected: (48.8588897, 2.3200410217200766), got: POINT (2.3428769743332993 48.85662229311872)
+[[True, True], ["Error: 'area'", "Error: 'area'"], ["Error: 'area'", "Error: 'area'"], [True, True], ["Error: name 'np' is not defined", "Error: name 'np' is not defined"], ["Error: name 'mean' is not defined", "Error: name 'mean' is not defined"], [False, False], ["Error: name 'read_shapefile' is not defined", "Error: name 'read_shapefile' is not defined"], ["Error: name 'get_polygons' is not defined", "Error: name 'get_polygons' is not defined"], ['Execution error', 'Execution error'], ['Error: agg function failed [how->sum,dtype->geometry]', 'Error: agg function failed [how->sum,dtype->geometry]'], ['Error: "[\'parcel_id\'] not found in axis"', 'Error: "[\'parcel_id\'] not found in axis"'], ["Error: Concat operation has resulted in multiple columns using the geometry column name 'geometry'.\nPlease ensure this column from the first DataFrame is not repeated.", "Error: Concat operation has resulted in multiple columns using the geometry column name 'geometry'.\nPlease ensure this column from the first DataFrame is not repeated."], ['Execution error', 'Execution error'], [False, True], ['Execution error', 'Execution error'], [False, False], ["Error: 'count'", "Error: 'count'"], ["Error: points_from_xy() missing 1 required positional argument: 'y'", "Error: points_from_xy() missing 1 required positional argument: 'y'"], [True, True], [True, True], ["Error: points_from_xy() missing 1 required positional argument: 'y'", "Error: points_from_xy() missing 1 required positional argument: 'y'"], [True, True], [True, True], [True, True], [True, True], [True, True], [True, True, True], [True, True, False], [True, True, True], [True, False, False], [True, True, True], [True, True, True], [True, True], ["Error: Argument 'geojson' has incorrect type (expected dict, got Polygon)", "Error: Argument 'geojson' has incorrect type (expected dict, got Polygon)", "Error: Argument 'geojson' has incorrect type (expected dict, got Polygon)"], ["Error: (<class 'geopandas.geoseries.GeoSeries'>, <class 'str'>)", "Error: (<class 'geopandas.geoseries.GeoSeries'>, <class 'str'>)", "Error: (<class 'geopandas.geoseries.GeoSeries'>, <class 'str'>)"], ["Error: name 'point_in_polygon' is not defined", "Error: name 'point_in_polygon' is not defined", "Error: name 'point_in_polygon' is not defined"], ["Error: name 'point_in_polygon' is not defined", "Error: name 'point_in_polygon' is not defined", "Error: name 'point_in_polygon' is not defined"], [True, True, True], [True, True, True], [True, True, True], [True, True, True], ['Error: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().', 'Error: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().', 'Error: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().'], ["Error: name 'city_name' is not defined", "Error: name 'city_name' is not defined", "Error: name 'city_name' is not defined"], [True, "Error: check_point() got an unexpected keyword argument 'name'", True], ["Error: 'str' object has no attribute 'geometry'", "Error: check_point() got an unexpected keyword argument 'name'", "Error: 'str' object has no attribute 'geometry'"], ["Error: 'str' object has no attribute 'geometry'", "Error: check_point() got an unexpected keyword argument 'name'", "Error: 'str' object has no attribute 'geometry'"], [False, False], ["Error: name 'point_in_polygon' is not defined", "Error: name 'point_in_polygon' is not defined"], ["Error: name 'point_in_polygon' is not defined", "Error: name 'point_in_polygon' is not defined"], [True, True], [True, True], [True, True], ['Execution error', 'Execution error'], [True, True], ["Error: name 'point_in_polygon' is not defined", "Error: name 'point_in_polygon' is not defined"], [True, True], [False, False], [True, True], ["Error: geocode_to_gdf() got an unexpected keyword argument 'provider'", "Error: geocode_to_gdf() got an unexpected keyword argument 'provider'"], ['Error: query must be a string or dict or list', 'Error: query must be a string or dict or list'], ['Error: each query must be a dict or a string', 'Error: each query must be a dict or a string', 'Error: each query must be a dict or a string'], [True, True, True], ["Error: 'Series' object is not callable"], [False], ["Error: 'Series' object is not callable"], [False], [False], [False], [False], [False], ['Error: '], ["Error: unsupported operand type(s) for -: 'NoneType' and 'float'"], ['Error: '], [False], ['Execution error', 'Execution error', 'Execution error', 'Execution error'], [False, False, False, False]]
+Testing model: mistralai_Mistral-7B-v0.1
+(id=1.1)Expected: 1, got: 1.0
+(id=1.1)Expected: 2, got: 2.0
+Error while executing test: 'Shape' object has no attribute 'area'
+(id=1.2)Expected: 1, got: 'Shape' object has no attribute 'area'
+Error while executing test: 'Shape' object has no attribute 'area'
+(id=1.2)Expected: 2, got: 'Shape' object has no attribute 'area'
+Error while executing test: string indices must be integers
+(id=1.3)Expected: 1, got: string indices must be integers
+Error while executing test: string indices must be integers
+(id=1.3)Expected: 2, got: string indices must be integers
+(id=1.4)Expected: 1, got: 1.0
+(id=1.4)Expected: 2, got: 2.0
+(id=1.5)Expected: 1, got: 2.0
+(id=1.5)Expected: 2, got: 6.0
+(id=1.6)Expected: 1, got: None
+(id=1.6)Expected: 2, got: None
+Error while executing test: 'GeoDataFrame' object has no attribute 'total_area'
+(id=2.1)Expected: 0.25, got: 'GeoDataFrame' object has no attribute 'total_area'
+Error while executing test: 'GeoDataFrame' object has no attribute 'total_area'
+(id=2.1)Expected: 0.5, got: 'GeoDataFrame' object has no attribute 'total_area'
+(id=2.2)Expected: 0.25, got: None
+(id=2.2)Expected: 0.5, got: None
+Error while executing code: unexpected EOF while parsing (<string>, line 26)
+(id=2.4)Expected: 0.25, got: None
+(id=2.4)Expected: 0.5, got: None
+(id=2.5)Expected: 0.25, got: 0.25
+(id=2.5)Expected: 0.5, got: 0.5
+(id=2.6)Expected: 0.25, got: 0.25
+(id=2.6)Expected: 0.5, got: 0.5
+(id=3.1)Expected: 3, got: 0
+(id=3.1)Expected: 2, got: 6
+Error while executing code: unexpected EOF while parsing (<string>, line 14)
+(id=3.3)Expected: 3, got: None
+(id=3.3)Expected: 2, got: None
+Error while executing code: module 'geopandas' has no attribute 'GeoDataFrames'
+Error while executing test: 'district'
+(id=3.5)Expected: 3, got: 'district'
+Error while executing test: 'district'
+(id=3.5)Expected: 2, got: 'district'
+Error while executing test: name '__file__' is not defined
+(id=3.6)Expected: 3, got: name '__file__' is not defined
+Error while executing test: name '__file__' is not defined
+(id=3.6)Expected: 2, got: name '__file__' is not defined
+(id=4.1)Expected: True, got: False
+(id=4.1)Expected: False, got: False
+(id=4.2)Expected: True, got: True
+(id=4.2)Expected: False, got: True
+Error while executing test: Lengths must match to compare
+(id=4.3)Expected: True, got: Lengths must match to compare
+Error while executing test: Lengths must match to compare
+(id=4.3)Expected: False, got: Lengths must match to compare
+Error while executing code: unexpected EOF while parsing (<string>, line 9)
+Error while executing test: Lengths must match to compare
+(id=4.5)Expected: True, got: Lengths must match to compare
+Error while executing test: Lengths must match to compare
+(id=4.5)Expected: False, got: Lengths must match to compare
+Error while executing code: unexpected EOF while parsing (<string>, line 10)
+(id=5)Expected: POINT (0 1), got: POINT (0 1)
+(id=5)Expected: POINT (1 0), got: POINT (1 0)
+(id=6.1)Expected: True, got: True
+(id=6.1)Expected: False, got: False
+(id=6.2)Expected: True, got: True
+(id=6.2)Expected: False, got: False
+(id=7.1)Expected: True, got: False
+(id=7.1)Expected: False, got: False
+(id=7.1)Expected: False, got: False
+(id=7.2)Expected: True, got: True
+(id=7.2)Expected: False, got: False
+(id=7.2)Expected: False, got: True
+(id=8.1)Expected: 0, got: 0.0
+(id=8.1)Expected: 1, got: 1.0
+(id=8.1)Expected: 1, got: 1.0
+(id=8.2)Expected: 0, got: 0.0
+(id=8.2)Expected: 1, got: 1.0
+(id=8.2)Expected: 1, got: 1.0
+(id=9.1)Expected: 81757ffffffffff, got: 81757ffffffffff
+(id=9.1)Expected: 82754ffffffffff, got: 82754ffffffffff
+(id=9.1)Expected: 83754efffffffff, got: 83754efffffffff
+Error while executing test: geo_to_h3() missing 1 required positional argument: 'resolution'
+(id=9.2)Expected: 81757ffffffffff, got: geo_to_h3() missing 1 required positional argument: 'resolution'
+Error while executing test: geo_to_h3() missing 1 required positional argument: 'resolution'
+(id=9.2)Expected: 82754ffffffffff, got: geo_to_h3() missing 1 required positional argument: 'resolution'
+Error while executing test: geo_to_h3() missing 1 required positional argument: 'resolution'
+(id=9.2)Expected: 83754efffffffff, got: geo_to_h3() missing 1 required positional argument: 'resolution'
+Error while executing test: module 'h3' has no attribute 'encode'
+(id=10)Expected: POLYGON ((1.2456980510072817 -1.667852447043259, 1.9211969045935866 -0.2548735255288649, 1.2017635601567977 0.9361637645983679, -0.1602034369452549 0.7197982113703898, -0.8199508788179312 -0.6593876817348934, -0.1336889125916513 -1.8554926185476668, 1.2456980510072817 -1.667852447043259)), got: module 'h3' has no attribute 'encode'
+Error while executing test: module 'h3' has no attribute 'encode'
+(id=10)Expected: POLYGON ((0.6243813819095283 0.1087813119690757, 0.7142709255340668 0.6751953147370924, 0.3201757867318896 0.9787908052924386, -0.1602034369452549 0.7197982113703898, -0.2508702091201494 0.1583300627614263, 0.1395985639515215 -0.1490765992924194, 0.6243813819095283 0.1087813119690757)), got: module 'h3' has no attribute 'encode'
+Error while executing test: module 'h3' has no attribute 'h3_to_cells'
+(id=11)Expected: 396, got: module 'h3' has no attribute 'h3_to_cells'
+Error while executing test: module 'h3' has no attribute 'h3_to_cells'
+(id=11)Expected: 1707, got: module 'h3' has no attribute 'h3_to_cells'
+Error while executing test: module 'h3' has no attribute 'h3_to_cells'
+(id=11)Expected: 1, got: module 'h3' has no attribute 'h3_to_cells'
+Error while executing test: 'PyGEOSSTRTreeIndex' object has no attribute 'contains'
+(id=12.1.1)Expected: True, got: 'PyGEOSSTRTreeIndex' object has no attribute 'contains'
+Error while executing test: 'PyGEOSSTRTreeIndex' object has no attribute 'contains'
+(id=12.1.1)Expected: True, got: 'PyGEOSSTRTreeIndex' object has no attribute 'contains'
+Error while executing test: 'PyGEOSSTRTreeIndex' object has no attribute 'contains'
+(id=12.1.1)Expected: False, got: 'PyGEOSSTRTreeIndex' object has no attribute 'contains'
+Error while executing test: ParseException: Unknown type: 'COORDINATES'
+(id=12.1.2)Expected: True, got: ParseException: Unknown type: 'COORDINATES'
+Error while executing test: ParseException: Unknown type: 'COORDINATES'
+(id=12.1.2)Expected: True, got: ParseException: Unknown type: 'COORDINATES'
+Error while executing test: ParseException: Unknown type: 'COORDINATES'
+(id=12.1.2)Expected: False, got: ParseException: Unknown type: 'COORDINATES'
+(id=12.1.3)Expected: True, got: True
+(id=12.1.3)Expected: True, got: None
+(id=12.1.3)Expected: False, got: None
+Error while executing test: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+(id=12.1.4)Expected: True, got: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+Error while executing test: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+(id=12.1.4)Expected: True, got: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+Error while executing test: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+(id=12.1.4)Expected: False, got: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+Error while executing test: ParseException: Unknown type: '/HOME/PGRAMACKI/PROJECTS/GEO-CODE-LLM/INPUTS/CITIES/ALL.SHP'
+(id=12.1.5)Expected: True, got: ParseException: Unknown type: '/HOME/PGRAMACKI/PROJECTS/GEO-CODE-LLM/INPUTS/CITIES/ALL.SHP'
+Error while executing test: ParseException: Unknown type: '/HOME/PGRAMACKI/PROJECTS/GEO-CODE-LLM/INPUTS/CITIES/ALL.SHP'
+(id=12.1.5)Expected: True, got: ParseException: Unknown type: '/HOME/PGRAMACKI/PROJECTS/GEO-CODE-LLM/INPUTS/CITIES/ALL.SHP'
+Error while executing test: ParseException: Unknown type: '/HOME/PGRAMACKI/PROJECTS/GEO-CODE-LLM/INPUTS/CITIES/ALL.SHP'
+(id=12.1.5)Expected: False, got: ParseException: Unknown type: '/HOME/PGRAMACKI/PROJECTS/GEO-CODE-LLM/INPUTS/CITIES/ALL.SHP'
+Error while executing test: 'str' object has no attribute 'get'
+(id=12.1.6)Expected: True, got: 'str' object has no attribute 'get'
+Error while executing test: 'str' object has no attribute 'get'
+(id=12.1.6)Expected: True, got: 'str' object has no attribute 'get'
+Error while executing test: 'str' object has no attribute 'get'
+(id=12.1.6)Expected: False, got: 'str' object has no attribute 'get'
+Error while executing test: module 'geopandas' has no attribute 'points'
+(id=12.2.1)Expected: True, got: module 'geopandas' has no attribute 'points'
+Error while executing test: module 'geopandas' has no attribute 'points'
+(id=12.2.1)Expected: True, got: module 'geopandas' has no attribute 'points'
+Error while executing test: module 'geopandas' has no attribute 'points'
+(id=12.2.1)Expected: False, got: module 'geopandas' has no attribute 'points'
+Error while executing test: Expected bytes or string, got Polygon
+(id=12.2.2)Expected: True, got: Expected bytes or string, got Polygon
+Error while executing test: Expected bytes or string, got MultiPolygon
+(id=12.2.2)Expected: True, got: Expected bytes or string, got MultiPolygon
+Error while executing test: Expected bytes or string, got MultiPolygon
+(id=12.2.2)Expected: False, got: Expected bytes or string, got MultiPolygon
+Error while executing test: Expected bytes or string, got Polygon
+(id=12.2.3)Expected: True, got: Expected bytes or string, got Polygon
+Error while executing test: Expected bytes or string, got MultiPolygon
+(id=12.2.3)Expected: True, got: Expected bytes or string, got MultiPolygon
+Error while executing test: Expected bytes or string, got MultiPolygon
+(id=12.2.3)Expected: False, got: Expected bytes or string, got MultiPolygon
+Error while executing test: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+(id=12.2.4)Expected: True, got: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+Error while executing test: check_point() got an unexpected keyword argument 'name'
+(id=12.2.4)Expected: True, got: check_point() got an unexpected keyword argument 'name'
+Error while executing test: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+(id=12.2.4)Expected: False, got: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+Error while executing test: ParseException: Unknown WKB type 520
+(id=12.2.5)Expected: True, got: ParseException: Unknown WKB type 520
+Error while executing test: check_point() got an unexpected keyword argument 'name'
+(id=12.2.5)Expected: True, got: check_point() got an unexpected keyword argument 'name'
+Error while executing test: ParseException: Unknown WKB type 520
+(id=12.2.5)Expected: False, got: ParseException: Unknown WKB type 520
+Error while executing test: module 'shapely.geometry' has no attribute 'loads'
+(id=12.2.6)Expected: True, got: module 'shapely.geometry' has no attribute 'loads'
+Error while executing test: check_point() got an unexpected keyword argument 'name'
+(id=12.2.6)Expected: True, got: check_point() got an unexpected keyword argument 'name'
+Error while executing test: module 'shapely.geometry' has no attribute 'loads'
+(id=12.2.6)Expected: False, got: module 'shapely.geometry' has no attribute 'loads'
+(id=13.1.1)Expected: Portugal, got: None
+(id=13.1.1)Expected: Germany, got: None
+Error while executing test: No module named 'shapely.geometry.multi'
+(id=13.1.2)Expected: Portugal, got: No module named 'shapely.geometry.multi'
+Error while executing test: No module named 'shapely.geometry.multi'
+(id=13.1.2)Expected: Germany, got: No module named 'shapely.geometry.multi'
+(id=13.1.3)Expected: Portugal, got: None
+(id=13.1.3)Expected: Germany, got: None
+(id=13.1.4)Expected: Portugal, got: Portugal
+(id=13.1.4)Expected: Germany, got: Germany
+Error while executing test: cannot import name 'asShape' from 'shapely.geometry' (/home/pgramacki/projects/geo-code-llm/.venv/lib/python3.9/site-packages/shapely/geometry/__init__.py)
+(id=13.1.5)Expected: Portugal, got: cannot import name 'asShape' from 'shapely.geometry' (/home/pgramacki/projects/geo-code-llm/.venv/lib/python3.9/site-packages/shapely/geometry/__init__.py)
+Error while executing test: cannot import name 'asShape' from 'shapely.geometry' (/home/pgramacki/projects/geo-code-llm/.venv/lib/python3.9/site-packages/shapely/geometry/__init__.py)
+(id=13.1.5)Expected: Germany, got: cannot import name 'asShape' from 'shapely.geometry' (/home/pgramacki/projects/geo-code-llm/.venv/lib/python3.9/site-packages/shapely/geometry/__init__.py)
+Error while executing test: module 'shapely.geometry' has no attribute 'loads'
+(id=13.1.6)Expected: Portugal, got: module 'shapely.geometry' has no attribute 'loads'
+Error while executing test: module 'shapely.geometry' has no attribute 'loads'
+(id=13.1.6)Expected: Germany, got: module 'shapely.geometry' has no attribute 'loads'
+Error while executing test: module 'geopandas' has no attribute 'points'
+(id=13.2.1)Expected: Portugal, got: module 'geopandas' has no attribute 'points'
+Error while executing test: module 'geopandas' has no attribute 'points'
+(id=13.2.1)Expected: Germany, got: module 'geopandas' has no attribute 'points'
+(id=13.2.2)Expected: Portugal, got: None
+(id=13.2.2)Expected: Germany, got: None
+Error while executing test: 'PyGEOSSTRTreeIndex' object has no attribute 'get_geoid'
+(id=13.2.3)Expected: Portugal, got: 'PyGEOSSTRTreeIndex' object has no attribute 'get_geoid'
+Error while executing test: 'PyGEOSSTRTreeIndex' object has no attribute 'get_geoid'
+(id=13.2.3)Expected: Germany, got: 'PyGEOSSTRTreeIndex' object has no attribute 'get_geoid'
+Error while executing test: 'MultiPolygon' object has no attribute 'name'
+(id=13.2.4)Expected: Portugal, got: 'MultiPolygon' object has no attribute 'name'
+Error while executing test: 'MultiPolygon' object has no attribute 'name'
+(id=13.2.4)Expected: Germany, got: 'MultiPolygon' object has no attribute 'name'
+Error while executing test: ParseException: Unknown WKB type 520
+(id=13.2.5)Expected: Portugal, got: ParseException: Unknown WKB type 520
+Error while executing test: ParseException: Unknown WKB type 520
+(id=13.2.5)Expected: Germany, got: ParseException: Unknown WKB type 520
+Error while executing test: could not convert string to float: '/'
+(id=13.2.6)Expected: Portugal, got: could not convert string to float: '/'
+Error while executing test: could not convert string to float: '/'
+(id=13.2.6)Expected: Germany, got: could not convert string to float: '/'
+(id=14.1)Expected: Portugal, got: None
+(id=14.1)Expected: Germany, got: None
+Error while executing test: geocode() got an unexpected keyword argument 'return_geometry'
+(id=14.2)Expected: Portugal, got: geocode() got an unexpected keyword argument 'return_geometry'
+Error while executing test: geocode() got an unexpected keyword argument 'return_geometry'
+(id=14.2)Expected: Germany, got: geocode() got an unexpected keyword argument 'return_geometry'
+Error while executing test: geocode() takes 1 positional argument but 2 were given
+(id=15.1)Expected: True, got: geocode() takes 1 positional argument but 2 were given
+Error while executing test: geocode() takes 1 positional argument but 2 were given
+(id=15.1)Expected: True, got: geocode() takes 1 positional argument but 2 were given
+Error while executing test: geocode() takes 1 positional argument but 2 were given
+(id=15.1)Expected: False, got: geocode() takes 1 positional argument but 2 were given
+Error while executing test: cannot import name 'MultiCollection' from 'shapely.geometry.collection' (/home/pgramacki/projects/geo-code-llm/.venv/lib/python3.9/site-packages/shapely/geometry/collection.py)
+(id=15.2)Expected: True, got: cannot import name 'MultiCollection' from 'shapely.geometry.collection' (/home/pgramacki/projects/geo-code-llm/.venv/lib/python3.9/site-packages/shapely/geometry/collection.py)
+Error while executing test: cannot import name 'MultiCollection' from 'shapely.geometry.collection' (/home/pgramacki/projects/geo-code-llm/.venv/lib/python3.9/site-packages/shapely/geometry/collection.py)
+(id=15.2)Expected: True, got: cannot import name 'MultiCollection' from 'shapely.geometry.collection' (/home/pgramacki/projects/geo-code-llm/.venv/lib/python3.9/site-packages/shapely/geometry/collection.py)
+Error while executing test: cannot import name 'MultiCollection' from 'shapely.geometry.collection' (/home/pgramacki/projects/geo-code-llm/.venv/lib/python3.9/site-packages/shapely/geometry/collection.py)
+(id=15.2)Expected: False, got: cannot import name 'MultiCollection' from 'shapely.geometry.collection' (/home/pgramacki/projects/geo-code-llm/.venv/lib/python3.9/site-packages/shapely/geometry/collection.py)
+Error while executing test: module 'movingpandas' has no attribute 'distance'
+(id=16.1)Expected: 16.24264, got: module 'movingpandas' has no attribute 'distance'
+Error while executing test: 't'
+(id=16.3)Expected: 16.24264, got: 't'
+Error while executing test: module 'movingpandas' has no attribute 'distance'
+(id=16.4)Expected: 16.24264, got: module 'movingpandas' has no attribute 'distance'
+Error while executing test: Error tokenizing data. C error: Expected 2 fields in line 4, saw 6
+
+(id=16.6)Expected: 16.24264, got: Error tokenizing data. C error: Expected 2 fields in line 4, saw 6
+
+Error while executing test: 'GeoSeries' object has no attribute 'total_length'
+(id=17.1)Expected: 900.0, got: 'GeoSeries' object has no attribute 'total_length'
+Error while executing test: module 'movingpandas' has no attribute 'Duration'
+(id=17.3)Expected: 900.0, got: module 'movingpandas' has no attribute 'Duration'
+Error while executing test: module 'movingpandas' has no attribute 'moving_duration'
+(id=17.4)Expected: 900.0, got: module 'movingpandas' has no attribute 'moving_duration'
+Error while executing test: Input must be valid geometry objects: {'type': 'Point', 'coordinates': [0.0, 0.0]}
+(id=17.6)Expected: 900.0, got: Input must be valid geometry objects: {'type': 'Point', 'coordinates': [0.0, 0.0]}
+Error while executing test: module 'movingpandas' has no attribute 'speed'
+(id=18.1)Expected: 0.018047, got: module 'movingpandas' has no attribute 'speed'
+Error while executing test: 't'
+(id=18.3)Expected: 0.018047, got: 't'
+Error while executing test: module 'movingpandas' has no attribute 'speed'
+(id=18.4)Expected: 0.018047, got: module 'movingpandas' has no attribute 'speed'
+Error while executing test: 't'
+(id=18.6)Expected: 0.018047, got: 't'
+Error while executing code: name 'Polygon' is not defined
+Error while executing test: module 'osmnx' has no attribute 'geocode_city'
+(id=20.1)Expected: (51.1089776, 17.0326689), got: module 'osmnx' has no attribute 'geocode_city'
+Error while executing test: module 'osmnx' has no attribute 'geocode_city'
+(id=20.1)Expected: (38.7077507, -9.1365919), got: module 'osmnx' has no attribute 'geocode_city'
+Error while executing test: module 'osmnx' has no attribute 'geocode_city'
+(id=20.1)Expected: (52.5108638, 13.3989421), got: module 'osmnx' has no attribute 'geocode_city'
+Error while executing test: module 'osmnx' has no attribute 'geocode_city'
+(id=20.1)Expected: (48.8588897, 2.3200410217200766), got: module 'osmnx' has no attribute 'geocode_city'
+[[True, True], ["Error: 'Shape' object has no attribute 'area'", "Error: 'Shape' object has no attribute 'area'"], ['Error: string indices must be integers', 'Error: string indices must be integers'], [True, True], [False, False], [False, False], ["Error: 'GeoDataFrame' object has no attribute 'total_area'", "Error: 'GeoDataFrame' object has no attribute 'total_area'"], [False, False], ['Execution error', 'Execution error'], [False, False], [True, True], [True, True], [False, False], ['Execution error', 'Execution error'], [False, False], ['Execution error', 'Execution error'], ["Error: 'district'", "Error: 'district'"], ["Error: name '__file__' is not defined", "Error: name '__file__' is not defined"], [False, True], [True, False], ['Error: Lengths must match to compare', 'Error: Lengths must match to compare'], ['Execution error', 'Execution error'], ['Error: Lengths must match to compare', 'Error: Lengths must match to compare'], ['Execution error', 'Execution error'], [True, True], [True, True], [True, True], [False, True, True], [True, True, False], [True, True, True], [True, True, True], [True, True, True], ["Error: geo_to_h3() missing 1 required positional argument: 'resolution'", "Error: geo_to_h3() missing 1 required positional argument: 'resolution'", "Error: geo_to_h3() missing 1 required positional argument: 'resolution'"], ["Error: module 'h3' has no attribute 'encode'", "Error: module 'h3' has no attribute 'encode'"], ["Error: module 'h3' has no attribute 'h3_to_cells'", "Error: module 'h3' has no attribute 'h3_to_cells'", "Error: module 'h3' has no attribute 'h3_to_cells'"], ["Error: 'PyGEOSSTRTreeIndex' object has no attribute 'contains'", "Error: 'PyGEOSSTRTreeIndex' object has no attribute 'contains'", "Error: 'PyGEOSSTRTreeIndex' object has no attribute 'contains'"], ["Error: ParseException: Unknown type: 'COORDINATES'", "Error: ParseException: Unknown type: 'COORDINATES'", "Error: ParseException: Unknown type: 'COORDINATES'"], [True, False, False], ['Error: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().', 'Error: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().', 'Error: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().'], ["Error: ParseException: Unknown type: '/HOME/PGRAMACKI/PROJECTS/GEO-CODE-LLM/INPUTS/CITIES/ALL.SHP'", "Error: ParseException: Unknown type: '/HOME/PGRAMACKI/PROJECTS/GEO-CODE-LLM/INPUTS/CITIES/ALL.SHP'", "Error: ParseException: Unknown type: '/HOME/PGRAMACKI/PROJECTS/GEO-CODE-LLM/INPUTS/CITIES/ALL.SHP'"], ["Error: 'str' object has no attribute 'get'", "Error: 'str' object has no attribute 'get'", "Error: 'str' object has no attribute 'get'"], ["Error: module 'geopandas' has no attribute 'points'", "Error: module 'geopandas' has no attribute 'points'", "Error: module 'geopandas' has no attribute 'points'"], ['Error: Expected bytes or string, got Polygon', 'Error: Expected bytes or string, got MultiPolygon', 'Error: Expected bytes or string, got MultiPolygon'], ['Error: Expected bytes or string, got Polygon', 'Error: Expected bytes or string, got MultiPolygon', 'Error: Expected bytes or string, got MultiPolygon'], ['Error: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().', "Error: check_point() got an unexpected keyword argument 'name'", 'Error: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().'], ['Error: ParseException: Unknown WKB type 520', "Error: check_point() got an unexpected keyword argument 'name'", 'Error: ParseException: Unknown WKB type 520'], ["Error: module 'shapely.geometry' has no attribute 'loads'", "Error: check_point() got an unexpected keyword argument 'name'", "Error: module 'shapely.geometry' has no attribute 'loads'"], [False, False], ["Error: No module named 'shapely.geometry.multi'", "Error: No module named 'shapely.geometry.multi'"], [False, False], [True, True], ["Error: cannot import name 'asShape' from 'shapely.geometry' (/home/pgramacki/projects/geo-code-llm/.venv/lib/python3.9/site-packages/shapely/geometry/__init__.py)", "Error: cannot import name 'asShape' from 'shapely.geometry' (/home/pgramacki/projects/geo-code-llm/.venv/lib/python3.9/site-packages/shapely/geometry/__init__.py)"], ["Error: module 'shapely.geometry' has no attribute 'loads'", "Error: module 'shapely.geometry' has no attribute 'loads'"], ["Error: module 'geopandas' has no attribute 'points'", "Error: module 'geopandas' has no attribute 'points'"], [False, False], ["Error: 'PyGEOSSTRTreeIndex' object has no attribute 'get_geoid'", "Error: 'PyGEOSSTRTreeIndex' object has no attribute 'get_geoid'"], ["Error: 'MultiPolygon' object has no attribute 'name'", "Error: 'MultiPolygon' object has no attribute 'name'"], ['Error: ParseException: Unknown WKB type 520', 'Error: ParseException: Unknown WKB type 520'], ["Error: could not convert string to float: '/'", "Error: could not convert string to float: '/'"], [False, False], ["Error: geocode() got an unexpected keyword argument 'return_geometry'", "Error: geocode() got an unexpected keyword argument 'return_geometry'"], ['Error: geocode() takes 1 positional argument but 2 were given', 'Error: geocode() takes 1 positional argument but 2 were given', 'Error: geocode() takes 1 positional argument but 2 were given'], ["Error: cannot import name 'MultiCollection' from 'shapely.geometry.collection' (/home/pgramacki/projects/geo-code-llm/.venv/lib/python3.9/site-packages/shapely/geometry/collection.py)", "Error: cannot import name 'MultiCollection' from 'shapely.geometry.collection' (/home/pgramacki/projects/geo-code-llm/.venv/lib/python3.9/site-packages/shapely/geometry/collection.py)", "Error: cannot import name 'MultiCollection' from 'shapely.geometry.collection' (/home/pgramacki/projects/geo-code-llm/.venv/lib/python3.9/site-packages/shapely/geometry/collection.py)"], ["Error: module 'movingpandas' has no attribute 'distance'"], ["Error: 't'"], ["Error: module 'movingpandas' has no attribute 'distance'"], ['Error: Error tokenizing data. C error: Expected 2 fields in line 4, saw 6\n'], ["Error: 'GeoSeries' object has no attribute 'total_length'"], ["Error: module 'movingpandas' has no attribute 'Duration'"], ["Error: module 'movingpandas' has no attribute 'moving_duration'"], ["Error: Input must be valid geometry objects: {'type': 'Point', 'coordinates': [0.0, 0.0]}"], ["Error: module 'movingpandas' has no attribute 'speed'"], ["Error: 't'"], ["Error: module 'movingpandas' has no attribute 'speed'"], ["Error: 't'"], ['Execution error', 'Execution error', 'Execution error', 'Execution error'], ["Error: module 'osmnx' has no attribute 'geocode_city'", "Error: module 'osmnx' has no attribute 'geocode_city'", "Error: module 'osmnx' has no attribute 'geocode_city'", "Error: module 'osmnx' has no attribute 'geocode_city'"]]
+Testing model: meta-llama_CodeLlama-7b-hf
+(id=1.1)Expected: 1, got: 1.0
+(id=1.1)Expected: 2, got: 2.0
+Error while executing test: name 'statistics' is not defined
+(id=1.2)Expected: 1, got: name 'statistics' is not defined
+Error while executing test: name 'statistics' is not defined
+(id=1.2)Expected: 2, got: name 'statistics' is not defined
+Error while executing test: 'area'
+(id=1.3)Expected: 1, got: 'area'
+Error while executing test: 'area'
+(id=1.3)Expected: 2, got: 'area'
+(id=1.4)Expected: 1, got: 1.0
+(id=1.4)Expected: 2, got: 2.0
+(id=1.5)Expected: 1, got: 1.0
+(id=1.5)Expected: 2, got: 2.0
+Error while executing test: 'area'
+(id=1.6)Expected: 1, got: 'area'
+Error while executing test: 'area'
+(id=1.6)Expected: 2, got: 'area'
+(id=2.1)Expected: 0.25, got: 0.0
+(id=2.1)Expected: 0.5, got: 0.2608695652173913
+(id=2.2)Expected: 0.25, got: None
+(id=2.2)Expected: 0.5, got: None
+Error while executing test: name 'load_polygons' is not defined
+(id=2.3)Expected: 0.25, got: name 'load_polygons' is not defined
+Error while executing test: name 'load_polygons' is not defined
+(id=2.3)Expected: 0.5, got: name 'load_polygons' is not defined
+(id=2.4)Expected: 0.25, got: 0.25
+(id=2.4)Expected: 0.5, got: 0.5
+(id=2.5)Expected: 0.25, got: 0.25
+(id=2.5)Expected: 0.5, got: 0.5
+(id=2.6)Expected: 0.25, got: 0.25
+(id=2.6)Expected: 0.5, got: 0.5
+Error while executing test: Can only compare identically-labeled Series objects
+(id=3.1)Expected: 3, got: Can only compare identically-labeled Series objects
+Error while executing test: Can only compare identically-labeled Series objects
+(id=3.1)Expected: 2, got: Can only compare identically-labeled Series objects
+Error while executing test: Cannot transform naive geometries.  Please set a crs on the object first.
+(id=3.2)Expected: 3, got: Cannot transform naive geometries.  Please set a crs on the object first.
+Error while executing test: Cannot transform naive geometries.  Please set a crs on the object first.
+(id=3.2)Expected: 2, got: Cannot transform naive geometries.  Please set a crs on the object first.
+Error while executing test: "None of ['id'] are in the columns"
+(id=3.3)Expected: 3, got: "None of ['id'] are in the columns"
+Error while executing test: "None of ['id'] are in the columns"
+(id=3.3)Expected: 2, got: "None of ['id'] are in the columns"
+Error while executing code: module 'geopandas' has no attribute 'GeoDataFrames'
+Error while executing test: 'DISTRICT'
+(id=3.5)Expected: 3, got: 'DISTRICT'
+Error while executing test: 'DISTRICT'
+(id=3.5)Expected: 2, got: 'DISTRICT'
+Error while executing test: 'district'
+(id=3.6)Expected: 3, got: 'district'
+Error while executing test: 'district'
+(id=3.6)Expected: 2, got: 'district'
+Error while executing test: points_from_xy() missing 1 required positional argument: 'y'
+(id=4.1)Expected: True, got: points_from_xy() missing 1 required positional argument: 'y'
+Error while executing test: points_from_xy() missing 1 required positional argument: 'y'
+(id=4.1)Expected: False, got: points_from_xy() missing 1 required positional argument: 'y'
+(id=4.2)Expected: True, got: False
+(id=4.2)Expected: False, got: False
+Error while executing test: points_from_xy() missing 1 required positional argument: 'y'
+(id=4.3)Expected: True, got: points_from_xy() missing 1 required positional argument: 'y'
+Error while executing test: points_from_xy() missing 1 required positional argument: 'y'
+(id=4.3)Expected: False, got: points_from_xy() missing 1 required positional argument: 'y'
+(id=4.4)Expected: True, got: True
+(id=4.4)Expected: False, got: True
+Error while executing test: 'data' should be array of geometry objects. Use from_shapely, from_wkb, from_wkt functions to construct a GeometryArray.
+(id=4.5)Expected: True, got: 'data' should be array of geometry objects. Use from_shapely, from_wkb, from_wkt functions to construct a GeometryArray.
+Error while executing test: 'data' should be array of geometry objects. Use from_shapely, from_wkb, from_wkt functions to construct a GeometryArray.
+(id=4.5)Expected: False, got: 'data' should be array of geometry objects. Use from_shapely, from_wkb, from_wkt functions to construct a GeometryArray.
+Error while executing test: points_from_xy() missing 1 required positional argument: 'y'
+(id=4.6)Expected: True, got: points_from_xy() missing 1 required positional argument: 'y'
+Error while executing test: points_from_xy() missing 1 required positional argument: 'y'
+(id=4.6)Expected: False, got: points_from_xy() missing 1 required positional argument: 'y'
+(id=5)Expected: POINT (0 1), got: POINT (0 1)
+(id=5)Expected: POINT (1 0), got: POINT (1 0)
+(id=6.1)Expected: True, got: True
+(id=6.1)Expected: False, got: False
+(id=6.2)Expected: True, got: True
+(id=6.2)Expected: False, got: False
+(id=7.1)Expected: True, got: True
+(id=7.1)Expected: False, got: False
+(id=7.1)Expected: False, got: False
+(id=7.2)Expected: True, got: True
+(id=7.2)Expected: False, got: False
+(id=7.2)Expected: False, got: True
+(id=8.1)Expected: 0, got: 0
+(id=8.1)Expected: 1, got: 1.0
+(id=8.1)Expected: 1, got: 1.0
+(id=8.2)Expected: 0, got: 0.0
+(id=8.2)Expected: 1, got: 0.25
+(id=8.2)Expected: 1, got: 0.25
+(id=9.1)Expected: 81757ffffffffff, got: 81757ffffffffff
+(id=9.1)Expected: 82754ffffffffff, got: 82754ffffffffff
+(id=9.1)Expected: 83754efffffffff, got: 83754efffffffff
+(id=9.2)Expected: 81757ffffffffff, got: 81757ffffffffff
+(id=9.2)Expected: 82754ffffffffff, got: 82754ffffffffff
+(id=9.2)Expected: 83754efffffffff, got: 83754efffffffff
+Error while executing test: module 'h3' has no attribute 'polyline_to_polygon'
+(id=10)Expected: POLYGON ((1.2456980510072817 -1.667852447043259, 1.9211969045935866 -0.2548735255288649, 1.2017635601567977 0.9361637645983679, -0.1602034369452549 0.7197982113703898, -0.8199508788179312 -0.6593876817348934, -0.1336889125916513 -1.8554926185476668, 1.2456980510072817 -1.667852447043259)), got: module 'h3' has no attribute 'polyline_to_polygon'
+Error while executing test: module 'h3' has no attribute 'polyline_to_polygon'
+(id=10)Expected: POLYGON ((0.6243813819095283 0.1087813119690757, 0.7142709255340668 0.6751953147370924, 0.3201757867318896 0.9787908052924386, -0.1602034369452549 0.7197982113703898, -0.2508702091201494 0.1583300627614263, 0.1395985639515215 -0.1490765992924194, 0.6243813819095283 0.1087813119690757)), got: module 'h3' has no attribute 'polyline_to_polygon'
+Error while executing test: Argument 'geojson' has incorrect type (expected dict, got Polygon)
+(id=11)Expected: 396, got: Argument 'geojson' has incorrect type (expected dict, got Polygon)
+Error while executing test: Argument 'geojson' has incorrect type (expected dict, got Polygon)
+(id=11)Expected: 1707, got: Argument 'geojson' has incorrect type (expected dict, got Polygon)
+Error while executing test: Argument 'geojson' has incorrect type (expected dict, got Polygon)
+(id=11)Expected: 1, got: Argument 'geojson' has incorrect type (expected dict, got Polygon)
+Error while executing test: points_from_xy() missing 1 required positional argument: 'y'
+(id=12.1.1)Expected: True, got: points_from_xy() missing 1 required positional argument: 'y'
+Error while executing test: points_from_xy() missing 1 required positional argument: 'y'
+(id=12.1.1)Expected: True, got: points_from_xy() missing 1 required positional argument: 'y'
+Error while executing test: points_from_xy() missing 1 required positional argument: 'y'
+(id=12.1.1)Expected: False, got: points_from_xy() missing 1 required positional argument: 'y'
+(id=12.1.2)Expected: True, got: None
+(id=12.1.2)Expected: True, got: None
+(id=12.1.2)Expected: False, got: None
+Error while executing test: name 'point_in_polygon' is not defined
+(id=12.1.3)Expected: True, got: name 'point_in_polygon' is not defined
+Error while executing test: name 'point_in_polygon' is not defined
+(id=12.1.3)Expected: True, got: name 'point_in_polygon' is not defined
+Error while executing test: name 'point_in_polygon' is not defined
+(id=12.1.3)Expected: False, got: name 'point_in_polygon' is not defined
+(id=12.1.4)Expected: True, got: True
+(id=12.1.4)Expected: True, got: True
+(id=12.1.4)Expected: False, got: False
+Error while executing test: module 'shapely.geometry' has no attribute 'shapefile'
+(id=12.1.5)Expected: True, got: module 'shapely.geometry' has no attribute 'shapefile'
+Error while executing test: module 'shapely.geometry' has no attribute 'shapefile'
+(id=12.1.5)Expected: True, got: module 'shapely.geometry' has no attribute 'shapefile'
+Error while executing test: module 'shapely.geometry' has no attribute 'shapefile'
+(id=12.1.5)Expected: False, got: module 'shapely.geometry' has no attribute 'shapefile'
+Error while executing test: 'dict' object has no attribute 'contains'
+(id=12.1.6)Expected: True, got: 'dict' object has no attribute 'contains'
+Error while executing test: 'dict' object has no attribute 'contains'
+(id=12.1.6)Expected: True, got: 'dict' object has no attribute 'contains'
+Error while executing test: 'dict' object has no attribute 'contains'
+(id=12.1.6)Expected: False, got: 'dict' object has no attribute 'contains'
+Error while executing test: Input must be valid geometry objects: <GeometryArray>
+[<POINT (-9.13 38.71)>]
+Length: 1, dtype: geometry
+(id=12.2.1)Expected: True, got: Input must be valid geometry objects: <GeometryArray>
+[<POINT (-9.13 38.71)>]
+Length: 1, dtype: geometry
+Error while executing test: Input must be valid geometry objects: <GeometryArray>
+[<POINT (13.59 52.43)>]
+Length: 1, dtype: geometry
+(id=12.2.1)Expected: True, got: Input must be valid geometry objects: <GeometryArray>
+[<POINT (13.59 52.43)>]
+Length: 1, dtype: geometry
+Error while executing test: Input must be valid geometry objects: <GeometryArray>
+[<POINT (-9.13 38.71)>]
+Length: 1, dtype: geometry
+(id=12.2.1)Expected: False, got: Input must be valid geometry objects: <GeometryArray>
+[<POINT (-9.13 38.71)>]
+Length: 1, dtype: geometry
+Error while executing test: name 'point_in_polygon' is not defined
+(id=12.2.2)Expected: True, got: name 'point_in_polygon' is not defined
+Error while executing test: name 'point_in_polygon' is not defined
+(id=12.2.2)Expected: True, got: name 'point_in_polygon' is not defined
+Error while executing test: name 'point_in_polygon' is not defined
+(id=12.2.2)Expected: False, got: name 'point_in_polygon' is not defined
+(id=12.2.3)Expected: True, got: False
+(id=12.2.3)Expected: True, got: False
+(id=12.2.3)Expected: False, got: False
+(id=12.2.4)Expected: True, got: True
+Error while executing test: check_point() got an unexpected keyword argument 'name'
+(id=12.2.4)Expected: True, got: check_point() got an unexpected keyword argument 'name'
+(id=12.2.4)Expected: False, got: True
+(id=12.2.5)Expected: True, got: True
+Error while executing test: check_point() got an unexpected keyword argument 'name'
+(id=12.2.5)Expected: True, got: check_point() got an unexpected keyword argument 'name'
+(id=12.2.5)Expected: False, got: False
+Error while executing test: 'dict' object has no attribute 'contains'
+(id=12.2.6)Expected: True, got: 'dict' object has no attribute 'contains'
+Error while executing test: check_point() got an unexpected keyword argument 'name'
+(id=12.2.6)Expected: True, got: check_point() got an unexpected keyword argument 'name'
+Error while executing test: 'dict' object has no attribute 'contains'
+(id=12.2.6)Expected: False, got: 'dict' object has no attribute 'contains'
+Error while executing test: points_from_xy() missing 1 required positional argument: 'y'
+(id=13.1.1)Expected: Portugal, got: points_from_xy() missing 1 required positional argument: 'y'
+Error while executing test: points_from_xy() missing 1 required positional argument: 'y'
+(id=13.1.1)Expected: Germany, got: points_from_xy() missing 1 required positional argument: 'y'
+Error while executing test: 'MultiPolygon' object has no attribute 'name'
+(id=13.1.2)Expected: Portugal, got: 'MultiPolygon' object has no attribute 'name'
+Error while executing test: 'MultiPolygon' object has no attribute 'name'
+(id=13.1.2)Expected: Germany, got: 'MultiPolygon' object has no attribute 'name'
+Error while executing test: float() argument must be a string or a number, not 'list'
+(id=13.1.3)Expected: Portugal, got: float() argument must be a string or a number, not 'list'
+Error while executing test: float() argument must be a string or a number, not 'list'
+(id=13.1.3)Expected: Germany, got: float() argument must be a string or a number, not 'list'
+(id=13.1.4)Expected: Portugal, got: Portugal
+(id=13.1.4)Expected: Germany, got: Germany
+Error while executing test: module 'shapely.geometry' has no attribute 'shapefile'
+(id=13.1.5)Expected: Portugal, got: module 'shapely.geometry' has no attribute 'shapefile'
+Error while executing test: module 'shapely.geometry' has no attribute 'shapefile'
+(id=13.1.5)Expected: Germany, got: module 'shapely.geometry' has no attribute 'shapefile'
+Error while executing test: Unknown geometry type: 'featurecollection'
+(id=13.1.6)Expected: Portugal, got: Unknown geometry type: 'featurecollection'
+Error while executing test: Unknown geometry type: 'featurecollection'
+(id=13.1.6)Expected: Germany, got: Unknown geometry type: 'featurecollection'
+Error while executing test: Input must be valid geometry objects: <GeometryArray>
+[<POINT (-9.13 38.71)>]
+Length: 1, dtype: geometry
+(id=13.2.1)Expected: Portugal, got: Input must be valid geometry objects: <GeometryArray>
+[<POINT (-9.13 38.71)>]
+Length: 1, dtype: geometry
+Error while executing test: Input must be valid geometry objects: <GeometryArray>
+[<POINT (13.59 52.43)>]
+Length: 1, dtype: geometry
+(id=13.2.1)Expected: Germany, got: Input must be valid geometry objects: <GeometryArray>
+[<POINT (13.59 52.43)>]
+Length: 1, dtype: geometry
+Error while executing test: 'Point' object has no attribute 'crs'
+(id=13.2.2)Expected: Portugal, got: 'Point' object has no attribute 'crs'
+Error while executing test: 'Point' object has no attribute 'crs'
+(id=13.2.2)Expected: Germany, got: 'Point' object has no attribute 'crs'
+Error while executing test: name 'point_in_polygon' is not defined
+(id=13.2.3)Expected: Portugal, got: name 'point_in_polygon' is not defined
+Error while executing test: name 'point_in_polygon' is not defined
+(id=13.2.3)Expected: Germany, got: name 'point_in_polygon' is not defined
+(id=13.2.4)Expected: Portugal, got: Portugal
+(id=13.2.4)Expected: Germany, got: Germany
+(id=13.2.5)Expected: Portugal, got: Portugal
+(id=13.2.5)Expected: Germany, got: Germany
+Error while executing test: module 'shapely.geometry' has no attribute 'shapefile'
+(id=13.2.6)Expected: Portugal, got: module 'shapely.geometry' has no attribute 'shapefile'
+Error while executing test: module 'shapely.geometry' has no attribute 'shapefile'
+(id=13.2.6)Expected: Germany, got: module 'shapely.geometry' has no attribute 'shapefile'
+Error while executing test: module 'osmnx.geocoder' has no attribute 'reverse'
+(id=14.1)Expected: Portugal, got: module 'osmnx.geocoder' has no attribute 'reverse'
+Error while executing test: module 'osmnx.geocoder' has no attribute 'reverse'
+(id=14.1)Expected: Germany, got: module 'osmnx.geocoder' has no attribute 'reverse'
+(id=14.2)Expected: Portugal, got: None
+(id=14.2)Expected: Germany, got: None
+Error while executing test: geometries_from_place() missing 1 required positional argument: 'tags'
+(id=15.1)Expected: True, got: geometries_from_place() missing 1 required positional argument: 'tags'
+Error while executing test: geometries_from_place() missing 1 required positional argument: 'tags'
+(id=15.1)Expected: True, got: geometries_from_place() missing 1 required positional argument: 'tags'
+Error while executing test: geometries_from_place() missing 1 required positional argument: 'tags'
+(id=15.1)Expected: False, got: geometries_from_place() missing 1 required positional argument: 'tags'
+Error while executing test:                                             geometry  ...  display_name0  MULTIPOLYGON (((-31.55753 39.44564, -31.55726 ...  ...      Portugal[1 rows x 17 columns]: No such file or directory
+(id=15.2)Expected: True, got:                                             geometry  ...  display_name0  MULTIPOLYGON (((-31.55753 39.44564, -31.55726 ...  ...      Portugal[1 rows x 17 columns]: No such file or directory
+Error while executing test:                                             geometry  ...  display_name0  MULTIPOLYGON (((10.45444 47.55580, 10.45569 47...  ...       Germany[1 rows x 17 columns]: No such file or directory
+(id=15.2)Expected: True, got:                                             geometry  ...  display_name0  MULTIPOLYGON (((10.45444 47.55580, 10.45569 47...  ...       Germany[1 rows x 17 columns]: No such file or directory
+Error while executing test:                                             geometry  ...  display_name0  MULTIPOLYGON (((-31.55753 39.44564, -31.55726 ...  ...      Portugal[1 rows x 17 columns]: No such file or directory
+(id=15.2)Expected: False, got:                                             geometry  ...  display_name0  MULTIPOLYGON (((-31.55753 39.44564, -31.55726 ...  ...      Portugal[1 rows x 17 columns]: No such file or directory
+Error while executing test: Input must be valid geometry objects: 0.0
+(id=16.1)Expected: 16.24264, got: Input must be valid geometry objects: 0.0
+Error while executing test: module 'movingpandas' has no attribute 'read_geojson'
+(id=16.3)Expected: 16.24264, got: module 'movingpandas' has no attribute 'read_geojson'
+Error while executing test: name 'movingpandas' is not defined
+(id=16.4)Expected: 16.24264, got: name 'movingpandas' is not defined
+Error while executing test: 'geometry_x'
+(id=16.6)Expected: 16.24264, got: 'geometry_x'
+Error while executing test: name 'movingpandas' is not defined
+(id=17.1)Expected: 900.0, got: name 'movingpandas' is not defined
+Error while executing test: module 'movingpandas' has no attribute 'read_geojson'
+(id=17.3)Expected: 900.0, got: module 'movingpandas' has no attribute 'read_geojson'
+(id=17.4)Expected: 900.0, got: 0
+Error while executing test: 'geometry_x'
+(id=17.6)Expected: 900.0, got: 'geometry_x'
+(id=18.1)Expected: 0.018047, got: 0
+Error while executing test: 't'
+(id=18.3)Expected: 0.018047, got: 't'
+Error while executing test: unsupported operand type(s) for -: 'NoneType' and 'float'
+(id=18.4)Expected: 0.018047, got: unsupported operand type(s) for -: 'NoneType' and 'float'
+Error while executing test: 'time'
+(id=18.6)Expected: 0.018047, got: 'time'
+Error while executing code: name 'Polygon' is not defined
+Error while executing test: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+(id=20.1)Expected: (51.1089776, 17.0326689), got: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+Error while executing test: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+(id=20.1)Expected: (38.7077507, -9.1365919), got: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+Error while executing test: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+(id=20.1)Expected: (52.5108638, 13.3989421), got: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+Error while executing test: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+(id=20.1)Expected: (48.8588897, 2.3200410217200766), got: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+[[True, True], ["Error: name 'statistics' is not defined", "Error: name 'statistics' is not defined"], ["Error: 'area'", "Error: 'area'"], [True, True], [True, True], ["Error: 'area'", "Error: 'area'"], [False, False], [False, False], ["Error: name 'load_polygons' is not defined", "Error: name 'load_polygons' is not defined"], [True, True], [True, True], [True, True], ['Error: Can only compare identically-labeled Series objects', 'Error: Can only compare identically-labeled Series objects'], ['Error: Cannot transform naive geometries.  Please set a crs on the object first.', 'Error: Cannot transform naive geometries.  Please set a crs on the object first.'], ['Error: "None of [\'id\'] are in the columns"', 'Error: "None of [\'id\'] are in the columns"'], ['Execution error', 'Execution error'], ["Error: 'DISTRICT'", "Error: 'DISTRICT'"], ["Error: 'district'", "Error: 'district'"], ["Error: points_from_xy() missing 1 required positional argument: 'y'", "Error: points_from_xy() missing 1 required positional argument: 'y'"], [False, True], ["Error: points_from_xy() missing 1 required positional argument: 'y'", "Error: points_from_xy() missing 1 required positional argument: 'y'"], [True, False], ["Error: 'data' should be array of geometry objects. Use from_shapely, from_wkb, from_wkt functions to construct a GeometryArray.", "Error: 'data' should be array of geometry objects. Use from_shapely, from_wkb, from_wkt functions to construct a GeometryArray."], ["Error: points_from_xy() missing 1 required positional argument: 'y'", "Error: points_from_xy() missing 1 required positional argument: 'y'"], [True, True], [True, True], [True, True], [True, True, True], [True, True, False], [True, True, True], [True, False, False], [True, True, True], [True, True, True], ["Error: module 'h3' has no attribute 'polyline_to_polygon'", "Error: module 'h3' has no attribute 'polyline_to_polygon'"], ["Error: Argument 'geojson' has incorrect type (expected dict, got Polygon)", "Error: Argument 'geojson' has incorrect type (expected dict, got Polygon)", "Error: Argument 'geojson' has incorrect type (expected dict, got Polygon)"], ["Error: points_from_xy() missing 1 required positional argument: 'y'", "Error: points_from_xy() missing 1 required positional argument: 'y'", "Error: points_from_xy() missing 1 required positional argument: 'y'"], [False, False, False], ["Error: name 'point_in_polygon' is not defined", "Error: name 'point_in_polygon' is not defined", "Error: name 'point_in_polygon' is not defined"], [True, True, True], ["Error: module 'shapely.geometry' has no attribute 'shapefile'", "Error: module 'shapely.geometry' has no attribute 'shapefile'", "Error: module 'shapely.geometry' has no attribute 'shapefile'"], ["Error: 'dict' object has no attribute 'contains'", "Error: 'dict' object has no attribute 'contains'", "Error: 'dict' object has no attribute 'contains'"], ['Error: Input must be valid geometry objects: <GeometryArray>\n[<POINT (-9.13 38.71)>]\nLength: 1, dtype: geometry', 'Error: Input must be valid geometry objects: <GeometryArray>\n[<POINT (13.59 52.43)>]\nLength: 1, dtype: geometry', 'Error: Input must be valid geometry objects: <GeometryArray>\n[<POINT (-9.13 38.71)>]\nLength: 1, dtype: geometry'], ["Error: name 'point_in_polygon' is not defined", "Error: name 'point_in_polygon' is not defined", "Error: name 'point_in_polygon' is not defined"], [False, False, True], [True, "Error: check_point() got an unexpected keyword argument 'name'", False], [True, "Error: check_point() got an unexpected keyword argument 'name'", True], ["Error: 'dict' object has no attribute 'contains'", "Error: check_point() got an unexpected keyword argument 'name'", "Error: 'dict' object has no attribute 'contains'"], ["Error: points_from_xy() missing 1 required positional argument: 'y'", "Error: points_from_xy() missing 1 required positional argument: 'y'"], ["Error: 'MultiPolygon' object has no attribute 'name'", "Error: 'MultiPolygon' object has no attribute 'name'"], ["Error: float() argument must be a string or a number, not 'list'", "Error: float() argument must be a string or a number, not 'list'"], [True, True], ["Error: module 'shapely.geometry' has no attribute 'shapefile'", "Error: module 'shapely.geometry' has no attribute 'shapefile'"], ["Error: Unknown geometry type: 'featurecollection'", "Error: Unknown geometry type: 'featurecollection'"], ['Error: Input must be valid geometry objects: <GeometryArray>\n[<POINT (-9.13 38.71)>]\nLength: 1, dtype: geometry', 'Error: Input must be valid geometry objects: <GeometryArray>\n[<POINT (13.59 52.43)>]\nLength: 1, dtype: geometry'], ["Error: 'Point' object has no attribute 'crs'", "Error: 'Point' object has no attribute 'crs'"], ["Error: name 'point_in_polygon' is not defined", "Error: name 'point_in_polygon' is not defined"], [True, True], [True, True], ["Error: module 'shapely.geometry' has no attribute 'shapefile'", "Error: module 'shapely.geometry' has no attribute 'shapefile'"], ["Error: module 'osmnx.geocoder' has no attribute 'reverse'", "Error: module 'osmnx.geocoder' has no attribute 'reverse'"], [False, False], ["Error: geometries_from_place() missing 1 required positional argument: 'tags'", "Error: geometries_from_place() missing 1 required positional argument: 'tags'", "Error: geometries_from_place() missing 1 required positional argument: 'tags'"], ['Error:                                             geometry  ...  display_name0  MULTIPOLYGON (((-31.55753 39.44564, -31.55726 ...  ...      Portugal[1 rows x 17 columns]: No such file or directory', 'Error:                                             geometry  ...  display_name0  MULTIPOLYGON (((10.45444 47.55580, 10.45569 47...  ...       Germany[1 rows x 17 columns]: No such file or directory', 'Error:                                             geometry  ...  display_name0  MULTIPOLYGON (((-31.55753 39.44564, -31.55726 ...  ...      Portugal[1 rows x 17 columns]: No such file or directory'], ['Error: Input must be valid geometry objects: 0.0'], ["Error: module 'movingpandas' has no attribute 'read_geojson'"], ["Error: name 'movingpandas' is not defined"], ["Error: 'geometry_x'"], ["Error: name 'movingpandas' is not defined"], ["Error: module 'movingpandas' has no attribute 'read_geojson'"], [False], ["Error: 'geometry_x'"], [False], ["Error: 't'"], ["Error: unsupported operand type(s) for -: 'NoneType' and 'float'"], ["Error: 'time'"], ['Execution error', 'Execution error', 'Execution error', 'Execution error'], ['Error: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().', 'Error: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().', 'Error: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().', 'Error: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().']]
+Testing model: google_gemma-7b
+Error while executing test: name 'poly_area' is not defined
+(id=1.1)Expected: 1, got: name 'poly_area' is not defined
+Error while executing test: name 'poly_area' is not defined
+(id=1.1)Expected: 2, got: name 'poly_area' is not defined
+(id=1.2)Expected: 1, got: None
+(id=1.2)Expected: 2, got: None
+Error while executing test: No module named 'geomet.geom'
+(id=1.3)Expected: 1, got: No module named 'geomet.geom'
+Error while executing test: No module named 'geomet.geom'
+(id=1.3)Expected: 2, got: No module named 'geomet.geom'
+(id=1.4)Expected: 1, got: 1.0
+(id=1.4)Expected: 2, got: 2.0
+Error while executing test: No module named 'contexpy'
+(id=1.5)Expected: 1, got: No module named 'contexpy'
+Error while executing test: No module named 'contexpy'
+(id=1.5)Expected: 2, got: No module named 'contexpy'
+Error while executing test: No module named 'geomet.geom'
+(id=1.6)Expected: 1, got: No module named 'geomet.geom'
+Error while executing test: No module named 'geomet.geom'
+(id=1.6)Expected: 2, got: No module named 'geomet.geom'
+(id=2.1)Expected: 0.25, got: 0.0
+(id=2.1)Expected: 0.5, got: 0.35294117647058826
+Error while executing code: invalid syntax (<string>, line 11)
+Error while executing test: No module named 'geomet.base'
+(id=2.3)Expected: 0.25, got: No module named 'geomet.base'
+Error while executing test: No module named 'geomet.base'
+(id=2.3)Expected: 0.5, got: No module named 'geomet.base'
+(id=2.4)Expected: 0.25, got: None
+(id=2.4)Expected: 0.5, got: None
+Error while executing code: invalid syntax (<string>, line 18)
+(id=2.6)Expected: 0.25, got: None
+(id=2.6)Expected: 0.5, got: None
+(id=3.1)Expected: 3, got: 0
+(id=3.1)Expected: 2, got: 0
+(id=3.2)Expected: 3, got: None
+(id=3.2)Expected: 2, got: None
+(id=3.3)Expected: 3, got: None
+(id=3.3)Expected: 2, got: None
+Error while executing code: module 'geopandas' has no attribute 'GeoDataFrames'
+(id=3.5)Expected: 3, got: None
+(id=3.5)Expected: 2, got: None
+Error while executing test: No module named 'vincent'
+(id=3.6)Expected: 3, got: No module named 'vincent'
+Error while executing test: No module named 'vincent'
+(id=3.6)Expected: 2, got: No module named 'vincent'
+Error while executing code: invalid syntax (<string>, line 9)
+(id=4.2)Expected: True, got: None
+(id=4.2)Expected: False, got: None
+(id=4.3)Expected: True, got: None
+(id=4.3)Expected: False, got: None
+Error while executing code: unexpected EOF while parsing (<string>, line 43)
+Error while executing code: invalid syntax (<string>, line 13)
+Error while executing test: name 'abnormalize_coordinates' is not defined
+(id=4.6)Expected: True, got: name 'abnormalize_coordinates' is not defined
+Error while executing test: name 'abnormalize_coordinates' is not defined
+(id=4.6)Expected: False, got: name 'abnormalize_coordinates' is not defined
+(id=5)Expected: POINT (0 1), got: POINT (0 1)
+(id=5)Expected: POINT (1 0), got: POINT (1 0)
+(id=6.1)Expected: True, got: True
+(id=6.1)Expected: False, got: False
+(id=6.2)Expected: True, got: True
+(id=6.2)Expected: False, got: False
+Error while executing code: expected an indented block (<string>, line 20)
+(id=7.2)Expected: True, got: True
+(id=7.2)Expected: False, got: False
+(id=7.2)Expected: False, got: False
+(id=8.1)Expected: 0, got: 0.0
+(id=8.1)Expected: 1, got: 1.0
+(id=8.1)Expected: 1, got: 1.0
+(id=8.2)Expected: 0, got: 0.0
+(id=8.2)Expected: 1, got: 0.25
+(id=8.2)Expected: 1, got: 0.25
+Error while executing test: module 'h3' has no attribute 'h3_from_latlon'
+(id=9.1)Expected: 81757ffffffffff, got: module 'h3' has no attribute 'h3_from_latlon'
+Error while executing test: module 'h3' has no attribute 'h3_from_latlon'
+(id=9.1)Expected: 82754ffffffffff, got: module 'h3' has no attribute 'h3_from_latlon'
+Error while executing test: module 'h3' has no attribute 'h3_from_latlon'
+(id=9.1)Expected: 83754efffffffff, got: module 'h3' has no attribute 'h3_from_latlon'
+Error while executing test: module 'h3' has no attribute 'h3_from_point'
+(id=9.2)Expected: 81757ffffffffff, got: module 'h3' has no attribute 'h3_from_point'
+Error while executing test: module 'h3' has no attribute 'h3_from_point'
+(id=9.2)Expected: 82754ffffffffff, got: module 'h3' has no attribute 'h3_from_point'
+Error while executing test: module 'h3' has no attribute 'h3_from_point'
+(id=9.2)Expected: 83754efffffffff, got: module 'h3' has no attribute 'h3_from_point'
+Error while executing test: module 'h3' has no attribute 'h3_to_polygon'
+(id=10)Expected: POLYGON ((1.2456980510072817 -1.667852447043259, 1.9211969045935866 -0.2548735255288649, 1.2017635601567977 0.9361637645983679, -0.1602034369452549 0.7197982113703898, -0.8199508788179312 -0.6593876817348934, -0.1336889125916513 -1.8554926185476668, 1.2456980510072817 -1.667852447043259)), got: module 'h3' has no attribute 'h3_to_polygon'
+Error while executing test: module 'h3' has no attribute 'h3_to_polygon'
+(id=10)Expected: POLYGON ((0.6243813819095283 0.1087813119690757, 0.7142709255340668 0.6751953147370924, 0.3201757867318896 0.9787908052924386, -0.1602034369452549 0.7197982113703898, -0.2508702091201494 0.1583300627614263, 0.1395985639515215 -0.1490765992924194, 0.6243813819095283 0.1087813119690757)), got: module 'h3' has no attribute 'h3_to_polygon'
+Error while executing test: module 'h3' has no attribute 'h3_polygon_from_shapely_polygon'
+(id=11)Expected: 396, got: module 'h3' has no attribute 'h3_polygon_from_shapely_polygon'
+Error while executing test: module 'h3' has no attribute 'h3_polygon_from_shapely_polygon'
+(id=11)Expected: 1707, got: module 'h3' has no attribute 'h3_polygon_from_shapely_polygon'
+Error while executing test: module 'h3' has no attribute 'h3_polygon_from_shapely_polygon'
+(id=11)Expected: 1, got: module 'h3' has no attribute 'h3_polygon_from_shapely_polygon'
+Error while executing code: invalid syntax (<string>, line 5)
+(id=12.1.2)Expected: True, got: None
+(id=12.1.2)Expected: True, got: None
+(id=12.1.2)Expected: False, got: None
+Error while executing test: No module named 'geomet.boundary'
+(id=12.1.3)Expected: True, got: No module named 'geomet.boundary'
+Error while executing test: No module named 'geomet.boundary'
+(id=12.1.3)Expected: True, got: No module named 'geomet.boundary'
+Error while executing test: No module named 'geomet.boundary'
+(id=12.1.3)Expected: False, got: No module named 'geomet.boundary'
+(id=12.1.4)Expected: True, got: True
+(id=12.1.4)Expected: True, got: True
+(id=12.1.4)Expected: False, got: False
+(id=12.1.5)Expected: True, got: None
+(id=12.1.5)Expected: True, got: None
+(id=12.1.5)Expected: False, got: None
+Error while executing test: name 'daz_encoding' is not defined
+(id=12.1.6)Expected: True, got: name 'daz_encoding' is not defined
+Error while executing test: name 'daz_encoding' is not defined
+(id=12.1.6)Expected: True, got: name 'daz_encoding' is not defined
+Error while executing test: name 'daz_encoding' is not defined
+(id=12.1.6)Expected: False, got: name 'daz_encoding' is not defined
+(id=12.2.1)Expected: True, got: None
+(id=12.2.1)Expected: True, got: None
+(id=12.2.1)Expected: False, got: None
+Error while executing test: No module named 'geomet.analyst'
+(id=12.2.2)Expected: True, got: No module named 'geomet.analyst'
+Error while executing test: No module named 'geomet.analyst'
+(id=12.2.2)Expected: True, got: No module named 'geomet.analyst'
+Error while executing test: No module named 'geomet.analyst'
+(id=12.2.2)Expected: False, got: No module named 'geomet.analyst'
+Error while executing test: No module named 'geomet.geojson'
+(id=12.2.3)Expected: True, got: No module named 'geomet.geojson'
+Error while executing test: No module named 'geomet.geojson'
+(id=12.2.3)Expected: True, got: No module named 'geomet.geojson'
+Error while executing test: No module named 'geomet.geojson'
+(id=12.2.3)Expected: False, got: No module named 'geomet.geojson'
+(id=12.2.4)Expected: True, got: None
+Error while executing test: check_point() got an unexpected keyword argument 'name'
+(id=12.2.4)Expected: True, got: check_point() got an unexpected keyword argument 'name'
+(id=12.2.4)Expected: False, got: None
+Error while executing test: name 'geometic_shape' is not defined
+(id=12.2.5)Expected: True, got: name 'geometic_shape' is not defined
+Error while executing test: check_point() got an unexpected keyword argument 'name'
+(id=12.2.5)Expected: True, got: check_point() got an unexpected keyword argument 'name'
+Error while executing test: name 'geometic_shape' is not defined
+(id=12.2.5)Expected: False, got: name 'geometic_shape' is not defined
+Error while executing test: 'daz_encoding' is an invalid keyword argument for open()
+(id=12.2.6)Expected: True, got: 'daz_encoding' is an invalid keyword argument for open()
+Error while executing test: check_point() got an unexpected keyword argument 'name'
+(id=12.2.6)Expected: True, got: check_point() got an unexpected keyword argument 'name'
+Error while executing test: 'daz_encoding' is an invalid keyword argument for open()
+(id=12.2.6)Expected: False, got: 'daz_encoding' is an invalid keyword argument for open()
+(id=13.1.1)Expected: Portugal, got: None
+(id=13.1.1)Expected: Germany, got: None
+(id=13.1.2)Expected: Portugal, got: None
+(id=13.1.2)Expected: Germany, got: None
+Error while executing test: No module named 'geomet.boundary'
+(id=13.1.3)Expected: Portugal, got: No module named 'geomet.boundary'
+Error while executing test: No module named 'geomet.boundary'
+(id=13.1.3)Expected: Germany, got: No module named 'geomet.boundary'
+Error while executing test: only integers, slices (`:`), ellipsis (`...`), numpy.newaxis (`None`) and integer or boolean arrays are valid indices
+(id=13.1.4)Expected: Portugal, got: only integers, slices (`:`), ellipsis (`...`), numpy.newaxis (`None`) and integer or boolean arrays are valid indices
+Error while executing test: only integers, slices (`:`), ellipsis (`...`), numpy.newaxis (`None`) and integer or boolean arrays are valid indices
+(id=13.1.4)Expected: Germany, got: only integers, slices (`:`), ellipsis (`...`), numpy.newaxis (`None`) and integer or boolean arrays are valid indices
+Error while executing code: invalid syntax (<string>, line 5)
+Error while executing code: EOL while scanning string literal (<string>, line 11)
+Error while executing code: invalid syntax (<string>, line 5)
+Error while executing code: invalid syntax (<string>, line 11)
+Error while executing test: No module named 'geomet.geometries'
+(id=13.2.3)Expected: Portugal, got: No module named 'geomet.geometries'
+Error while executing test: No module named 'geomet.geometries'
+(id=13.2.3)Expected: Germany, got: No module named 'geomet.geometries'
+Error while executing code: closing parenthesis ')' does not match opening parenthesis '[' (<string>, line 6)
+(id=13.2.5)Expected: Portugal, got: None
+(id=13.2.5)Expected: Germany, got: None
+Error while executing code: unexpected EOF while parsing (<string>, line 22)
+Error while executing test: No module named 'contextauth'
+(id=14.1)Expected: Portugal, got: No module named 'contextauth'
+Error while executing test: No module named 'contextauth'
+(id=14.1)Expected: Germany, got: No module named 'contextauth'
+(id=14.2)Expected: Portugal, got: None
+(id=14.2)Expected: Germany, got: None
+Error while executing test: No module named 'contextauth'
+(id=15.1)Expected: True, got: No module named 'contextauth'
+Error while executing test: No module named 'contextauth'
+(id=15.1)Expected: True, got: No module named 'contextauth'
+Error while executing test: No module named 'contextauth'
+(id=15.1)Expected: False, got: No module named 'contextauth'
+(id=15.2)Expected: True, got: True
+(id=15.2)Expected: True, got: True
+(id=15.2)Expected: False, got: True
+Error while executing test: cannot import name 'MovingPandas' from 'movingpandas' (/home/pgramacki/projects/geo-code-llm/.venv/lib/python3.9/site-packages/movingpandas/__init__.py)
+(id=16.1)Expected: 16.24264, got: cannot import name 'MovingPandas' from 'movingpandas' (/home/pgramacki/projects/geo-code-llm/.venv/lib/python3.9/site-packages/movingpandas/__init__.py)
+Error while executing test: No module named 'contextauth'
+(id=16.3)Expected: 16.24264, got: No module named 'contextauth'
+Error while executing test: unsupported operand type(s) for -: 'NoneType' and 'float'
+(id=16.4)Expected: 16.24264, got: unsupported operand type(s) for -: 'NoneType' and 'float'
+Error while executing test: No module named 'reconnoi'
+(id=16.6)Expected: 16.24264, got: No module named 'reconnoi'
+(id=17.1)Expected: 900.0, got: None
+Error while executing test: No module named 'contextauth'
+(id=17.3)Expected: 900.0, got: No module named 'contextauth'
+(id=17.4)Expected: 900.0, got: None
+Error while executing test: No module named 'contextauth'
+(id=17.6)Expected: 900.0, got: No module named 'contextauth'
+Error while executing test: unsupported operand type(s) for -: 'NoneType' and 'float'
+(id=18.1)Expected: 0.018047, got: unsupported operand type(s) for -: 'NoneType' and 'float'
+Error while executing test: No module named 'contextauth'
+(id=18.3)Expected: 0.018047, got: No module named 'contextauth'
+Error while executing test: unsupported operand type(s) for -: 'NoneType' and 'float'
+(id=18.4)Expected: 0.018047, got: unsupported operand type(s) for -: 'NoneType' and 'float'
+Error while executing test: No module named 'abnorm'
+(id=18.6)Expected: 0.018047, got: No module named 'abnorm'
+Error while executing code: name 'Polygon' is not defined
+Error while executing test: 'NoneType' object has no attribute 'x'
+(id=20.1)Expected: (51.1089776, 17.0326689), got: 'NoneType' object has no attribute 'x'
+Error while executing test: 'NoneType' object has no attribute 'x'
+(id=20.1)Expected: (38.7077507, -9.1365919), got: 'NoneType' object has no attribute 'x'
+Error while executing test: 'NoneType' object has no attribute 'x'
+(id=20.1)Expected: (52.5108638, 13.3989421), got: 'NoneType' object has no attribute 'x'
+Error while executing test: 'NoneType' object has no attribute 'x'
+(id=20.1)Expected: (48.8588897, 2.3200410217200766), got: 'NoneType' object has no attribute 'x'
+[["Error: name 'poly_area' is not defined", "Error: name 'poly_area' is not defined"], [False, False], ["Error: No module named 'geomet.geom'", "Error: No module named 'geomet.geom'"], [True, True], ["Error: No module named 'contexpy'", "Error: No module named 'contexpy'"], ["Error: No module named 'geomet.geom'", "Error: No module named 'geomet.geom'"], [False, False], ['Execution error', 'Execution error'], ["Error: No module named 'geomet.base'", "Error: No module named 'geomet.base'"], [False, False], ['Execution error', 'Execution error'], [False, False], [False, False], [False, False], [False, False], ['Execution error', 'Execution error'], [False, False], ["Error: No module named 'vincent'", "Error: No module named 'vincent'"], ['Execution error', 'Execution error'], [False, False], [False, False], ['Execution error', 'Execution error'], ['Execution error', 'Execution error'], ["Error: name 'abnormalize_coordinates' is not defined", "Error: name 'abnormalize_coordinates' is not defined"], [True, True], [True, True], [True, True], ['Execution error', 'Execution error', 'Execution error'], [True, True, True], [True, True, True], [True, False, False], ["Error: module 'h3' has no attribute 'h3_from_latlon'", "Error: module 'h3' has no attribute 'h3_from_latlon'", "Error: module 'h3' has no attribute 'h3_from_latlon'"], ["Error: module 'h3' has no attribute 'h3_from_point'", "Error: module 'h3' has no attribute 'h3_from_point'", "Error: module 'h3' has no attribute 'h3_from_point'"], ["Error: module 'h3' has no attribute 'h3_to_polygon'", "Error: module 'h3' has no attribute 'h3_to_polygon'"], ["Error: module 'h3' has no attribute 'h3_polygon_from_shapely_polygon'", "Error: module 'h3' has no attribute 'h3_polygon_from_shapely_polygon'", "Error: module 'h3' has no attribute 'h3_polygon_from_shapely_polygon'"], ['Execution error', 'Execution error', 'Execution error'], [False, False, False], ["Error: No module named 'geomet.boundary'", "Error: No module named 'geomet.boundary'", "Error: No module named 'geomet.boundary'"], [True, True, True], [False, False, False], ["Error: name 'daz_encoding' is not defined", "Error: name 'daz_encoding' is not defined", "Error: name 'daz_encoding' is not defined"], [False, False, False], ["Error: No module named 'geomet.analyst'", "Error: No module named 'geomet.analyst'", "Error: No module named 'geomet.analyst'"], ["Error: No module named 'geomet.geojson'", "Error: No module named 'geomet.geojson'", "Error: No module named 'geomet.geojson'"], [False, "Error: check_point() got an unexpected keyword argument 'name'", False], ["Error: name 'geometic_shape' is not defined", "Error: check_point() got an unexpected keyword argument 'name'", "Error: name 'geometic_shape' is not defined"], ["Error: 'daz_encoding' is an invalid keyword argument for open()", "Error: check_point() got an unexpected keyword argument 'name'", "Error: 'daz_encoding' is an invalid keyword argument for open()"], [False, False], [False, False], ["Error: No module named 'geomet.boundary'", "Error: No module named 'geomet.boundary'"], ['Error: only integers, slices (`:`), ellipsis (`...`), numpy.newaxis (`None`) and integer or boolean arrays are valid indices', 'Error: only integers, slices (`:`), ellipsis (`...`), numpy.newaxis (`None`) and integer or boolean arrays are valid indices'], ['Execution error', 'Execution error'], ['Execution error', 'Execution error'], ['Execution error', 'Execution error'], ['Execution error', 'Execution error'], ["Error: No module named 'geomet.geometries'", "Error: No module named 'geomet.geometries'"], ['Execution error', 'Execution error'], [False, False], ['Execution error', 'Execution error'], ["Error: No module named 'contextauth'", "Error: No module named 'contextauth'"], [False, False], ["Error: No module named 'contextauth'", "Error: No module named 'contextauth'", "Error: No module named 'contextauth'"], [True, True, False], ["Error: cannot import name 'MovingPandas' from 'movingpandas' (/home/pgramacki/projects/geo-code-llm/.venv/lib/python3.9/site-packages/movingpandas/__init__.py)"], ["Error: No module named 'contextauth'"], ["Error: unsupported operand type(s) for -: 'NoneType' and 'float'"], ["Error: No module named 'reconnoi'"], [False], ["Error: No module named 'contextauth'"], [False], ["Error: No module named 'contextauth'"], ["Error: unsupported operand type(s) for -: 'NoneType' and 'float'"], ["Error: No module named 'contextauth'"], ["Error: unsupported operand type(s) for -: 'NoneType' and 'float'"], ["Error: No module named 'abnorm'"], ['Execution error', 'Execution error', 'Execution error', 'Execution error'], ["Error: 'NoneType' object has no attribute 'x'", "Error: 'NoneType' object has no attribute 'x'", "Error: 'NoneType' object has no attribute 'x'", "Error: 'NoneType' object has no attribute 'x'"]]
+Testing model: google_codegemma-7b
+(id=1.1)Expected: 1, got: 1.0
+(id=1.1)Expected: 2, got: 2.0
+(id=1.2)Expected: 1, got: None
+(id=1.2)Expected: 2, got: None
+Error while executing code: invalid syntax (<string>, line 4)
+(id=1.4)Expected: 1, got: 1.0
+(id=1.4)Expected: 2, got: 2.0
+Error while executing code: invalid syntax (<string>, line 6)
+(id=1.6)Expected: 1, got: None
+(id=1.6)Expected: 2, got: None
+(id=2.1)Expected: 0.25, got: None
+(id=2.1)Expected: 0.5, got: None
+(id=2.2)Expected: 0.25, got: None
+(id=2.2)Expected: 0.5, got: None
+Error while executing code: invalid syntax (<string>, line 3)
+(id=2.4)Expected: 0.25, got: None
+(id=2.4)Expected: 0.5, got: None
+(id=2.5)Expected: 0.25, got: None
+(id=2.5)Expected: 0.5, got: None
+Error while executing code: invalid syntax (<string>, line 3)
+(id=3.1)Expected: 3, got: 2
+(id=3.1)Expected: 2, got: 1
+(id=3.2)Expected: 3, got: None
+(id=3.2)Expected: 2, got: None
+(id=3.3)Expected: 3, got: None
+(id=3.3)Expected: 2, got: None
+Error while executing code: module 'geopandas' has no attribute 'GeoDataFrames'
+(id=3.5)Expected: 3, got: None
+(id=3.5)Expected: 2, got: None
+(id=3.6)Expected: 3, got: None
+(id=3.6)Expected: 2, got: None
+(id=4.1)Expected: True, got: None
+(id=4.1)Expected: False, got: None
+(id=4.2)Expected: True, got: None
+(id=4.2)Expected: False, got: None
+(id=4.3)Expected: True, got: None
+(id=4.3)Expected: False, got: None
+(id=4.4)Expected: True, got: None
+(id=4.4)Expected: False, got: None
+(id=4.5)Expected: True, got: None
+(id=4.5)Expected: False, got: None
+(id=4.6)Expected: True, got: None
+(id=4.6)Expected: False, got: None
+(id=5)Expected: POINT (0 1), got: POINT (0 1)
+(id=5)Expected: POINT (1 0), got: POINT (1 0)
+(id=6.1)Expected: True, got: True
+(id=6.1)Expected: False, got: False
+(id=6.2)Expected: True, got: True
+(id=6.2)Expected: False, got: False
+(id=7.1)Expected: True, got: True
+(id=7.1)Expected: False, got: False
+(id=7.1)Expected: False, got: False
+(id=7.2)Expected: True, got: True
+(id=7.2)Expected: False, got: False
+(id=7.2)Expected: False, got: False
+Error while executing code: unindent does not match any outer indentation level (<string>, line 6)
+(id=8.2)Expected: 0, got: None
+(id=8.2)Expected: 1, got: None
+(id=8.2)Expected: 1, got: None
+(id=9.1)Expected: 81757ffffffffff, got: 81757ffffffffff
+(id=9.1)Expected: 82754ffffffffff, got: 82754ffffffffff
+(id=9.1)Expected: 83754efffffffff, got: 83754efffffffff
+(id=9.2)Expected: 81757ffffffffff, got: 81757ffffffffff
+(id=9.2)Expected: 82754ffffffffff, got: 82754ffffffffff
+(id=9.2)Expected: 83754efffffffff, got: 83754efffffffff
+(id=10)Expected: POLYGON ((1.2456980510072817 -1.667852447043259, 1.9211969045935866 -0.2548735255288649, 1.2017635601567977 0.9361637645983679, -0.1602034369452549 0.7197982113703898, -0.8199508788179312 -0.6593876817348934, -0.1336889125916513 -1.8554926185476668, 1.2456980510072817 -1.667852447043259)), got: ((-1.667852447043259, 1.2456980510072817), (-0.2548735255288649, 1.9211969045935866), (0.9361637645983679, 1.2017635601567977), (0.7197982113703898, -0.1602034369452549), (-0.6593876817348934, -0.8199508788179312), (-1.8554926185476668, -0.1336889125916513))
+(id=10)Expected: POLYGON ((0.6243813819095283 0.1087813119690757, 0.7142709255340668 0.6751953147370924, 0.3201757867318896 0.9787908052924386, -0.1602034369452549 0.7197982113703898, -0.2508702091201494 0.1583300627614263, 0.1395985639515215 -0.1490765992924194, 0.6243813819095283 0.1087813119690757)), got: ((0.10878131196907571, 0.6243813819095283), (0.6751953147370924, 0.7142709255340668), (0.9787908052924386, 0.3201757867318896), (0.7197982113703898, -0.1602034369452549), (0.1583300627614263, -0.25087020912014935), (-0.14907659929241945, 0.1395985639515215))
+(id=11)Expected: 396, got: None
+(id=11)Expected: 1707, got: None
+(id=11)Expected: 1, got: None
+Error while executing code: unexpected indent (<string>, line 5)
+Error while executing code: invalid syntax (<string>, line 6)
+(id=12.1.3)Expected: True, got: None
+(id=12.1.3)Expected: True, got: None
+(id=12.1.3)Expected: False, got: None
+(id=12.1.4)Expected: True, got: True
+(id=12.1.4)Expected: True, got: True
+(id=12.1.4)Expected: False, got: False
+Error while executing code: invalid syntax (<string>, line 11)
+(id=12.1.6)Expected: True, got: None
+(id=12.1.6)Expected: True, got: None
+(id=12.1.6)Expected: False, got: None
+Error while executing test: 'data' should be array of geometry objects. Use from_shapely, from_wkb, from_wkt functions to construct a GeometryArray.
+(id=12.2.1)Expected: True, got: 'data' should be array of geometry objects. Use from_shapely, from_wkb, from_wkt functions to construct a GeometryArray.
+Error while executing test: 'data' should be array of geometry objects. Use from_shapely, from_wkb, from_wkt functions to construct a GeometryArray.
+(id=12.2.1)Expected: True, got: 'data' should be array of geometry objects. Use from_shapely, from_wkb, from_wkt functions to construct a GeometryArray.
+Error while executing test: 'data' should be array of geometry objects. Use from_shapely, from_wkb, from_wkt functions to construct a GeometryArray.
+(id=12.2.1)Expected: False, got: 'data' should be array of geometry objects. Use from_shapely, from_wkb, from_wkt functions to construct a GeometryArray.
+Error while executing code: invalid syntax (<string>, line 6)
+Error while executing code: invalid syntax (<string>, line 3)
+(id=12.2.4)Expected: True, got: True
+Error while executing test: check_point() got an unexpected keyword argument 'name'
+(id=12.2.4)Expected: True, got: check_point() got an unexpected keyword argument 'name'
+(id=12.2.4)Expected: False, got: False
+Error while executing code: unindent does not match any outer indentation level (<string>, line 9)
+(id=12.2.6)Expected: True, got: None
+Error while executing test: check_point() got an unexpected keyword argument 'name'
+(id=12.2.6)Expected: True, got: check_point() got an unexpected keyword argument 'name'
+(id=12.2.6)Expected: False, got: None
+Error while executing code: unexpected indent (<string>, line 5)
+(id=13.1.2)Expected: Portugal, got: None
+(id=13.1.2)Expected: Germany, got: None
+Error while executing code: invalid syntax (<string>, line 3)
+Error while executing code: invalid syntax (<string>, line 6)
+(id=13.1.5)Expected: Portugal, got: None
+(id=13.1.5)Expected: Germany, got: None
+(id=13.1.6)Expected: Portugal, got: None
+(id=13.1.6)Expected: Germany, got: None
+(id=13.2.1)Expected: Portugal, got: None
+(id=13.2.1)Expected: Germany, got: None
+(id=13.2.2)Expected: Portugal, got: None
+(id=13.2.2)Expected: Germany, got: None
+Error while executing code: invalid syntax (<string>, line 3)
+(id=13.2.4)Expected: Portugal, got: None
+(id=13.2.4)Expected: Germany, got: None
+(id=13.2.5)Expected: Portugal, got: None
+(id=13.2.5)Expected: Germany, got: None
+(id=13.2.6)Expected: Portugal, got: None
+(id=13.2.6)Expected: Germany, got: None
+Error while executing test: geocode() takes 1 positional argument but 2 were given
+(id=14.1)Expected: Portugal, got: geocode() takes 1 positional argument but 2 were given
+Error while executing test: geocode() takes 1 positional argument but 2 were given
+(id=14.1)Expected: Germany, got: geocode() takes 1 positional argument but 2 were given
+Error while executing test: geocode() got an unexpected keyword argument 'by_country'
+(id=14.2)Expected: Portugal, got: geocode() got an unexpected keyword argument 'by_country'
+Error while executing test: geocode() got an unexpected keyword argument 'by_country'
+(id=14.2)Expected: Germany, got: geocode() got an unexpected keyword argument 'by_country'
+Error while executing test: module 'osmnx' has no attribute 'get_nearest_node'
+(id=15.1)Expected: True, got: module 'osmnx' has no attribute 'get_nearest_node'
+Error while executing test: local variable 'response' referenced before assignment
+(id=15.1)Expected: True, got: local variable 'response' referenced before assignment
+Error while executing test: module 'osmnx' has no attribute 'get_nearest_node'
+(id=15.1)Expected: False, got: module 'osmnx' has no attribute 'get_nearest_node'
+(id=15.2)Expected: True, got: True
+(id=15.2)Expected: True, got: True
+(id=15.2)Expected: False, got: True
+Error while executing test: unsupported operand type(s) for -: 'NoneType' and 'float'
+(id=16.1)Expected: 16.24264, got: unsupported operand type(s) for -: 'NoneType' and 'float'
+Error while executing code: invalid syntax (<string>, line 4)
+Error while executing test: unsupported operand type(s) for -: 'NoneType' and 'float'
+(id=16.4)Expected: 16.24264, got: unsupported operand type(s) for -: 'NoneType' and 'float'
+Error while executing test: unsupported operand type(s) for -: 'NoneType' and 'float'
+(id=16.6)Expected: 16.24264, got: unsupported operand type(s) for -: 'NoneType' and 'float'
+(id=17.1)Expected: 900.0, got: None
+Error while executing code: invalid syntax (<string>, line 4)
+(id=17.4)Expected: 900.0, got: None
+Error while executing code: invalid syntax (<string>, line 4)
+Error while executing test: unsupported operand type(s) for -: 'NoneType' and 'float'
+(id=18.1)Expected: 0.018047, got: unsupported operand type(s) for -: 'NoneType' and 'float'
+Error while executing test: unsupported operand type(s) for -: 'NoneType' and 'float'
+(id=18.3)Expected: 0.018047, got: unsupported operand type(s) for -: 'NoneType' and 'float'
+Error while executing test: unsupported operand type(s) for -: 'NoneType' and 'float'
+(id=18.4)Expected: 0.018047, got: unsupported operand type(s) for -: 'NoneType' and 'float'
+Error while executing test: unsupported operand type(s) for -: 'NoneType' and 'float'
+(id=18.6)Expected: 0.018047, got: unsupported operand type(s) for -: 'NoneType' and 'float'
+Error while executing code: name 'Polygon' is not defined
+Error while executing test: 'tuple' object has no attribute 'x'
+(id=20.1)Expected: (51.1089776, 17.0326689), got: 'tuple' object has no attribute 'x'
+Error while executing test: 'tuple' object has no attribute 'x'
+(id=20.1)Expected: (38.7077507, -9.1365919), got: 'tuple' object has no attribute 'x'
+Error while executing test: 'tuple' object has no attribute 'x'
+(id=20.1)Expected: (52.5108638, 13.3989421), got: 'tuple' object has no attribute 'x'
+Error while executing test: 'tuple' object has no attribute 'x'
+(id=20.1)Expected: (48.8588897, 2.3200410217200766), got: 'tuple' object has no attribute 'x'
+[[True, True], [False, False], ['Execution error', 'Execution error'], [True, True], ['Execution error', 'Execution error'], [False, False], [False, False], [False, False], ['Execution error', 'Execution error'], [False, False], [False, False], ['Execution error', 'Execution error'], [False, False], [False, False], [False, False], ['Execution error', 'Execution error'], [False, False], [False, False], [False, False], [False, False], [False, False], [False, False], [False, False], [False, False], [True, True], [True, True], [True, True], [True, True, True], [True, True, True], ['Execution error', 'Execution error', 'Execution error'], [False, False, False], [True, True, True], [True, True, True], [False, False], [False, False, False], ['Execution error', 'Execution error', 'Execution error'], ['Execution error', 'Execution error', 'Execution error'], [False, False, False], [True, True, True], ['Execution error', 'Execution error', 'Execution error'], [False, False, False], ["Error: 'data' should be array of geometry objects. Use from_shapely, from_wkb, from_wkt functions to construct a GeometryArray.", "Error: 'data' should be array of geometry objects. Use from_shapely, from_wkb, from_wkt functions to construct a GeometryArray.", "Error: 'data' should be array of geometry objects. Use from_shapely, from_wkb, from_wkt functions to construct a GeometryArray."], ['Execution error', 'Execution error', 'Execution error'], ['Execution error', 'Execution error', 'Execution error'], [True, "Error: check_point() got an unexpected keyword argument 'name'", True], ['Execution error', 'Execution error', 'Execution error'], [False, "Error: check_point() got an unexpected keyword argument 'name'", False], ['Execution error', 'Execution error'], [False, False], ['Execution error', 'Execution error'], ['Execution error', 'Execution error'], [False, False], [False, False], [False, False], [False, False], ['Execution error', 'Execution error'], [False, False], [False, False], [False, False], ['Error: geocode() takes 1 positional argument but 2 were given', 'Error: geocode() takes 1 positional argument but 2 were given'], ["Error: geocode() got an unexpected keyword argument 'by_country'", "Error: geocode() got an unexpected keyword argument 'by_country'"], ["Error: module 'osmnx' has no attribute 'get_nearest_node'", "Error: local variable 'response' referenced before assignment", "Error: module 'osmnx' has no attribute 'get_nearest_node'"], [True, True, False], ["Error: unsupported operand type(s) for -: 'NoneType' and 'float'"], ['Execution error'], ["Error: unsupported operand type(s) for -: 'NoneType' and 'float'"], ["Error: unsupported operand type(s) for -: 'NoneType' and 'float'"], [False], ['Execution error'], [False], ['Execution error'], ["Error: unsupported operand type(s) for -: 'NoneType' and 'float'"], ["Error: unsupported operand type(s) for -: 'NoneType' and 'float'"], ["Error: unsupported operand type(s) for -: 'NoneType' and 'float'"], ["Error: unsupported operand type(s) for -: 'NoneType' and 'float'"], ['Execution error', 'Execution error', 'Execution error', 'Execution error'], ["Error: 'tuple' object has no attribute 'x'", "Error: 'tuple' object has no attribute 'x'", "Error: 'tuple' object has no attribute 'x'", "Error: 'tuple' object has no attribute 'x'"]]
+Testing model: meta-llama_CodeLlama-7b-Python-hf
+(id=1.1)Expected: 1, got: 1.0
+(id=1.1)Expected: 2, got: 2.0
+Error while executing code: expected an indented block (<string>, line 26)
+Error while executing test: No module named 'rasterstats'
+(id=1.3)Expected: 1, got: No module named 'rasterstats'
+Error while executing test: No module named 'rasterstats'
+(id=1.3)Expected: 2, got: No module named 'rasterstats'
+(id=1.4)Expected: 1, got: 1.0
+(id=1.4)Expected: 2, got: 2.0
+(id=1.5)Expected: 1, got: 1.0
+(id=1.5)Expected: 2, got: 2.0
+(id=1.6)Expected: 1, got: 1.0
+(id=1.6)Expected: 2, got: 2.0
+(id=2.1)Expected: 0.25, got: 0.0
+(id=2.1)Expected: 0.5, got: 1.5
+(id=2.2)Expected: 0.25, got: 0.0
+(id=2.2)Expected: 0.5, got: 1.5
+(id=2.3)Expected: 0.25, got: 0.5
+(id=2.3)Expected: 0.5, got: 0.75
+(id=2.4)Expected: 0.25, got: 0.25
+(id=2.4)Expected: 0.5, got: 0.35294117647058826
+(id=2.5)Expected: 0.25, got: 0.25
+(id=2.5)Expected: 0.5, got: 0.35294117647058826
+Error while executing test: 'GeoDataFrame' object has no attribute 'geometry_right'
+(id=2.6)Expected: 0.25, got: 'GeoDataFrame' object has no attribute 'geometry_right'
+Error while executing test: 'GeoDataFrame' object has no attribute 'geometry_right'
+(id=2.6)Expected: 0.5, got: 'GeoDataFrame' object has no attribute 'geometry_right'
+(id=3.1)Expected: 3, got: None
+(id=3.1)Expected: 2, got: None
+Error while executing test: No module named 'pygeos'
+(id=3.2)Expected: 3, got: No module named 'pygeos'
+Error while executing test: No module named 'pygeos'
+(id=3.2)Expected: 2, got: No module named 'pygeos'
+Error while executing test: name '_point_in_polygon' is not defined
+(id=3.3)Expected: 3, got: name '_point_in_polygon' is not defined
+Error while executing test: name '_point_in_polygon' is not defined
+(id=3.3)Expected: 2, got: name '_point_in_polygon' is not defined
+Error while executing code: module 'geopandas' has no attribute 'GeoDataFrames'
+Error while executing test: unsupported operand type(s) for /: 'method' and 'int'
+(id=3.5)Expected: 3, got: unsupported operand type(s) for /: 'method' and 'int'
+Error while executing test: unsupported operand type(s) for /: 'method' and 'int'
+(id=3.5)Expected: 2, got: unsupported operand type(s) for /: 'method' and 'int'
+(id=3.6)Expected: 3, got: None
+(id=3.6)Expected: 2, got: None
+(id=4.1)Expected: True, got: True
+(id=4.1)Expected: False, got: True
+(id=4.2)Expected: True, got: True
+(id=4.2)Expected: False, got: False
+(id=4.3)Expected: True, got: True
+(id=4.3)Expected: False, got: False
+(id=4.4)Expected: True, got: True
+(id=4.4)Expected: False, got: False
+Error while executing test: 'data' should be array of geometry objects. Use from_shapely, from_wkb, from_wkt functions to construct a GeometryArray.
+(id=4.5)Expected: True, got: 'data' should be array of geometry objects. Use from_shapely, from_wkb, from_wkt functions to construct a GeometryArray.
+Error while executing test: 'data' should be array of geometry objects. Use from_shapely, from_wkb, from_wkt functions to construct a GeometryArray.
+(id=4.5)Expected: False, got: 'data' should be array of geometry objects. Use from_shapely, from_wkb, from_wkt functions to construct a GeometryArray.
+(id=4.6)Expected: True, got: False
+(id=4.6)Expected: False, got: True
+(id=5)Expected: POINT (0 1), got: POINT (0 1)
+(id=5)Expected: POINT (1 0), got: POINT (1 0)
+(id=6.1)Expected: True, got: True
+(id=6.1)Expected: False, got: False
+(id=6.2)Expected: True, got: True
+(id=6.2)Expected: False, got: False
+(id=7.1)Expected: True, got: True
+(id=7.1)Expected: False, got: False
+(id=7.1)Expected: False, got: False
+(id=7.2)Expected: True, got: True
+(id=7.2)Expected: False, got: False
+(id=7.2)Expected: False, got: False
+(id=8.1)Expected: 0, got: 0.0
+(id=8.1)Expected: 1, got: 1.0
+(id=8.1)Expected: 1, got: 1.0
+(id=8.2)Expected: 0, got: 0.0
+(id=8.2)Expected: 1, got: 0.25
+(id=8.2)Expected: 1, got: 0.25
+(id=9.1)Expected: 81757ffffffffff, got: 81757ffffffffff
+(id=9.1)Expected: 82754ffffffffff, got: 82754ffffffffff
+(id=9.1)Expected: 83754efffffffff, got: 83754efffffffff
+(id=9.2)Expected: 81757ffffffffff, got: 81757ffffffffff
+(id=9.2)Expected: 82754ffffffffff, got: 82754ffffffffff
+(id=9.2)Expected: 83754efffffffff, got: 83754efffffffff
+Error while executing test: 'float' object is not iterable
+(id=10)Expected: POLYGON ((1.2456980510072817 -1.667852447043259, 1.9211969045935866 -0.2548735255288649, 1.2017635601567977 0.9361637645983679, -0.1602034369452549 0.7197982113703898, -0.8199508788179312 -0.6593876817348934, -0.1336889125916513 -1.8554926185476668, 1.2456980510072817 -1.667852447043259)), got: 'float' object is not iterable
+Error while executing test: 'float' object is not iterable
+(id=10)Expected: POLYGON ((0.6243813819095283 0.1087813119690757, 0.7142709255340668 0.6751953147370924, 0.3201757867318896 0.9787908052924386, -0.1602034369452549 0.7197982113703898, -0.2508702091201494 0.1583300627614263, 0.1395985639515215 -0.1490765992924194, 0.6243813819095283 0.1087813119690757)), got: 'float' object is not iterable
+(id=11)Expected: 396, got: None
+(id=11)Expected: 1707, got: None
+(id=11)Expected: 1, got: None
+(id=12.1.1)Expected: True, got: True
+(id=12.1.1)Expected: True, got: True
+(id=12.1.1)Expected: False, got: False
+Error while executing test: 'NAME'
+(id=12.1.2)Expected: True, got: 'NAME'
+Error while executing test: 'NAME'
+(id=12.1.2)Expected: True, got: 'NAME'
+Error while executing test: 'NAME'
+(id=12.1.2)Expected: False, got: 'NAME'
+(id=12.1.3)Expected: True, got: None
+(id=12.1.3)Expected: True, got: None
+(id=12.1.3)Expected: False, got: None
+(id=12.1.4)Expected: True, got: True
+(id=12.1.4)Expected: True, got: True
+(id=12.1.4)Expected: False, got: False
+(id=12.1.5)Expected: True, got: None
+(id=12.1.5)Expected: True, got: None
+(id=12.1.5)Expected: False, got: None
+Error while executing test: Non geometry data passed to GeoSeries constructor, received data of dtype 'object'
+(id=12.1.6)Expected: True, got: Non geometry data passed to GeoSeries constructor, received data of dtype 'object'
+Error while executing test: Non geometry data passed to GeoSeries constructor, received data of dtype 'object'
+(id=12.1.6)Expected: True, got: Non geometry data passed to GeoSeries constructor, received data of dtype 'object'
+Error while executing test: Non geometry data passed to GeoSeries constructor, received data of dtype 'object'
+(id=12.1.6)Expected: False, got: Non geometry data passed to GeoSeries constructor, received data of dtype 'object'
+Error while executing test: (<class 'geopandas.geoseries.GeoSeries'>, <class 'geopandas.array.GeometryArray'>)
+(id=12.2.1)Expected: True, got: (<class 'geopandas.geoseries.GeoSeries'>, <class 'geopandas.array.GeometryArray'>)
+Error while executing test: (<class 'geopandas.geoseries.GeoSeries'>, <class 'geopandas.array.GeometryArray'>)
+(id=12.2.1)Expected: True, got: (<class 'geopandas.geoseries.GeoSeries'>, <class 'geopandas.array.GeometryArray'>)
+Error while executing test: (<class 'geopandas.geoseries.GeoSeries'>, <class 'geopandas.array.GeometryArray'>)
+(id=12.2.1)Expected: False, got: (<class 'geopandas.geoseries.GeoSeries'>, <class 'geopandas.array.GeometryArray'>)
+Error while executing test: 'str' object has no attribute 'geometry'
+(id=12.2.2)Expected: True, got: 'str' object has no attribute 'geometry'
+Error while executing test: 'str' object has no attribute 'geometry'
+(id=12.2.2)Expected: True, got: 'str' object has no attribute 'geometry'
+Error while executing test: 'str' object has no attribute 'geometry'
+(id=12.2.2)Expected: False, got: 'str' object has no attribute 'geometry'
+(id=12.2.3)Expected: True, got: None
+(id=12.2.3)Expected: True, got: None
+(id=12.2.3)Expected: False, got: None
+(id=12.2.4)Expected: True, got: True
+Error while executing test: check_point() got an unexpected keyword argument 'name'
+(id=12.2.4)Expected: True, got: check_point() got an unexpected keyword argument 'name'
+(id=12.2.4)Expected: False, got: False
+Error while executing test: 'str' object has no attribute 'records'
+(id=12.2.5)Expected: True, got: 'str' object has no attribute 'records'
+Error while executing test: check_point() got an unexpected keyword argument 'name'
+(id=12.2.5)Expected: True, got: check_point() got an unexpected keyword argument 'name'
+Error while executing test: 'str' object has no attribute 'records'
+(id=12.2.5)Expected: False, got: 'str' object has no attribute 'records'
+Error while executing test: string indices must be integers
+(id=12.2.6)Expected: True, got: string indices must be integers
+Error while executing test: check_point() got an unexpected keyword argument 'name'
+(id=12.2.6)Expected: True, got: check_point() got an unexpected keyword argument 'name'
+Error while executing test: string indices must be integers
+(id=12.2.6)Expected: False, got: string indices must be integers
+(id=13.1.1)Expected: Portugal, got: None
+(id=13.1.1)Expected: Germany, got: None
+(id=13.1.2)Expected: Portugal, got: None
+(id=13.1.2)Expected: Germany, got: None
+Error while executing test: the JSON object must be str, bytes or bytearray, not Polygon
+(id=13.1.3)Expected: Portugal, got: the JSON object must be str, bytes or bytearray, not Polygon
+Error while executing test: the JSON object must be str, bytes or bytearray, not Polygon
+(id=13.1.3)Expected: Germany, got: the JSON object must be str, bytes or bytearray, not Polygon
+(id=13.1.4)Expected: Portugal, got: Portugal
+(id=13.1.4)Expected: Germany, got: Germany
+(id=13.1.5)Expected: Portugal, got: None
+(id=13.1.5)Expected: Germany, got: None
+Error while executing test: One of the arguments is of incorrect type. Please provide only Geometry objects.
+(id=13.1.6)Expected: Portugal, got: One of the arguments is of incorrect type. Please provide only Geometry objects.
+Error while executing test: One of the arguments is of incorrect type. Please provide only Geometry objects.
+(id=13.1.6)Expected: Germany, got: One of the arguments is of incorrect type. Please provide only Geometry objects.
+Error while executing test: module 'geopandas' has no attribute 'points'
+(id=13.2.1)Expected: Portugal, got: module 'geopandas' has no attribute 'points'
+Error while executing test: module 'geopandas' has no attribute 'points'
+(id=13.2.1)Expected: Germany, got: module 'geopandas' has no attribute 'points'
+(id=13.2.2)Expected: Portugal, got: 3
+(id=13.2.2)Expected: Germany, got: 1
+(id=13.2.3)Expected: Portugal, got: 
+(id=13.2.3)Expected: Germany, got: 
+(id=13.2.4)Expected: Portugal, got: 3
+(id=13.2.4)Expected: Germany, got: 1
+(id=13.2.5)Expected: Portugal, got: None
+(id=13.2.5)Expected: Germany, got: None
+(id=13.2.6)Expected: Portugal, got: Portugal
+(id=13.2.6)Expected: Germany, got: Germany
+Error while executing test: geocode_to_gdf() got an unexpected keyword argument 'geocoder'
+(id=14.1)Expected: Portugal, got: geocode_to_gdf() got an unexpected keyword argument 'geocoder'
+Error while executing test: geocode_to_gdf() got an unexpected keyword argument 'geocoder'
+(id=14.1)Expected: Germany, got: geocode_to_gdf() got an unexpected keyword argument 'geocoder'
+Error while executing test: module 'osmnx.geocoder' has no attribute 'geocode_osm'
+(id=14.2)Expected: Portugal, got: module 'osmnx.geocoder' has no attribute 'geocode_osm'
+Error while executing test: module 'osmnx.geocoder' has no attribute 'geocode_osm'
+(id=14.2)Expected: Germany, got: module 'osmnx.geocoder' has no attribute 'geocode_osm'
+Error while executing test: cannot import name 'geocoder_to_gdf' from 'osmnx' (/home/pgramacki/projects/geo-code-llm/.venv/lib/python3.9/site-packages/osmnx/__init__.py)
+(id=15.1)Expected: True, got: cannot import name 'geocoder_to_gdf' from 'osmnx' (/home/pgramacki/projects/geo-code-llm/.venv/lib/python3.9/site-packages/osmnx/__init__.py)
+Error while executing test: cannot import name 'geocoder_to_gdf' from 'osmnx' (/home/pgramacki/projects/geo-code-llm/.venv/lib/python3.9/site-packages/osmnx/__init__.py)
+(id=15.1)Expected: True, got: cannot import name 'geocoder_to_gdf' from 'osmnx' (/home/pgramacki/projects/geo-code-llm/.venv/lib/python3.9/site-packages/osmnx/__init__.py)
+Error while executing test: cannot import name 'geocoder_to_gdf' from 'osmnx' (/home/pgramacki/projects/geo-code-llm/.venv/lib/python3.9/site-packages/osmnx/__init__.py)
+(id=15.1)Expected: False, got: cannot import name 'geocoder_to_gdf' from 'osmnx' (/home/pgramacki/projects/geo-code-llm/.venv/lib/python3.9/site-packages/osmnx/__init__.py)
+Error while executing test: cannot import name 'geocoding' from 'osmnx' (/home/pgramacki/projects/geo-code-llm/.venv/lib/python3.9/site-packages/osmnx/__init__.py)
+(id=15.2)Expected: True, got: cannot import name 'geocoding' from 'osmnx' (/home/pgramacki/projects/geo-code-llm/.venv/lib/python3.9/site-packages/osmnx/__init__.py)
+Error while executing test: cannot import name 'geocoding' from 'osmnx' (/home/pgramacki/projects/geo-code-llm/.venv/lib/python3.9/site-packages/osmnx/__init__.py)
+(id=15.2)Expected: True, got: cannot import name 'geocoding' from 'osmnx' (/home/pgramacki/projects/geo-code-llm/.venv/lib/python3.9/site-packages/osmnx/__init__.py)
+Error while executing test: cannot import name 'geocoding' from 'osmnx' (/home/pgramacki/projects/geo-code-llm/.venv/lib/python3.9/site-packages/osmnx/__init__.py)
+(id=15.2)Expected: False, got: cannot import name 'geocoding' from 'osmnx' (/home/pgramacki/projects/geo-code-llm/.venv/lib/python3.9/site-packages/osmnx/__init__.py)
+Error while executing test: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+(id=16.1)Expected: 16.24264, got: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+Error while executing test: Error tokenizing data. C error: Expected 2 fields in line 4, saw 6
+
+(id=16.3)Expected: 16.24264, got: Error tokenizing data. C error: Expected 2 fields in line 4, saw 6
+
+(id=16.4)Expected: 16.24264, got: 0
+Error while executing test: No module named 'movingpandas.trajectories'
+(id=16.6)Expected: 16.24264, got: No module named 'movingpandas.trajectories'
+Error while executing test: unsupported operand type(s) for /: 'numpy.ndarray' and 'Timestamp'
+(id=17.1)Expected: 900.0, got: unsupported operand type(s) for /: 'numpy.ndarray' and 'Timestamp'
+Error while executing test: Error tokenizing data. C error: Expected 2 fields in line 4, saw 6
+
+(id=17.3)Expected: 900.0, got: Error tokenizing data. C error: Expected 2 fields in line 4, saw 6
+
+(id=17.4)Expected: 900.0, got: 0
+Error while executing test: Error tokenizing data. C error: Expected 2 fields in line 4, saw 6
+
+(id=17.6)Expected: 900.0, got: Error tokenizing data. C error: Expected 2 fields in line 4, saw 6
+
+Error while executing test: 
+(id=18.1)Expected: 0.018047, got: 
+Error while executing test: Error tokenizing data. C error: Expected 2 fields in line 4, saw 6
+
+(id=18.3)Expected: 0.018047, got: Error tokenizing data. C error: Expected 2 fields in line 4, saw 6
+
+Error while executing test: 
+(id=18.4)Expected: 0.018047, got: 
+Error while executing test: module 'movingpandas' has no attribute 'read_postgis'
+(id=18.6)Expected: 0.018047, got: module 'movingpandas' has no attribute 'read_postgis'
+Error while executing code: name 'Polygon' is not defined
+Error while executing test: 'tuple' object has no attribute 'iloc'
+(id=20.1)Expected: (51.1089776, 17.0326689), got: 'tuple' object has no attribute 'iloc'
+Error while executing test: 'tuple' object has no attribute 'iloc'
+(id=20.1)Expected: (38.7077507, -9.1365919), got: 'tuple' object has no attribute 'iloc'
+Error while executing test: 'tuple' object has no attribute 'iloc'
+(id=20.1)Expected: (52.5108638, 13.3989421), got: 'tuple' object has no attribute 'iloc'
+Error while executing test: 'tuple' object has no attribute 'iloc'
+(id=20.1)Expected: (48.8588897, 2.3200410217200766), got: 'tuple' object has no attribute 'iloc'
+[[True, True], ['Execution error', 'Execution error'], ["Error: No module named 'rasterstats'", "Error: No module named 'rasterstats'"], [True, True], [True, True], [True, True], [False, False], [False, False], [False, False], [True, False], [True, False], ["Error: 'GeoDataFrame' object has no attribute 'geometry_right'", "Error: 'GeoDataFrame' object has no attribute 'geometry_right'"], [False, False], ["Error: No module named 'pygeos'", "Error: No module named 'pygeos'"], ["Error: name '_point_in_polygon' is not defined", "Error: name '_point_in_polygon' is not defined"], ['Execution error', 'Execution error'], ["Error: unsupported operand type(s) for /: 'method' and 'int'", "Error: unsupported operand type(s) for /: 'method' and 'int'"], [False, False], [True, False], [True, True], [True, True], [True, True], ["Error: 'data' should be array of geometry objects. Use from_shapely, from_wkb, from_wkt functions to construct a GeometryArray.", "Error: 'data' should be array of geometry objects. Use from_shapely, from_wkb, from_wkt functions to construct a GeometryArray."], [False, False], [True, True], [True, True], [True, True], [True, True, True], [True, True, True], [True, True, True], [True, False, False], [True, True, True], [True, True, True], ["Error: 'float' object is not iterable", "Error: 'float' object is not iterable"], [False, False, False], [True, True, True], ["Error: 'NAME'", "Error: 'NAME'", "Error: 'NAME'"], [False, False, False], [True, True, True], [False, False, False], ["Error: Non geometry data passed to GeoSeries constructor, received data of dtype 'object'", "Error: Non geometry data passed to GeoSeries constructor, received data of dtype 'object'", "Error: Non geometry data passed to GeoSeries constructor, received data of dtype 'object'"], ["Error: (<class 'geopandas.geoseries.GeoSeries'>, <class 'geopandas.array.GeometryArray'>)", "Error: (<class 'geopandas.geoseries.GeoSeries'>, <class 'geopandas.array.GeometryArray'>)", "Error: (<class 'geopandas.geoseries.GeoSeries'>, <class 'geopandas.array.GeometryArray'>)"], ["Error: 'str' object has no attribute 'geometry'", "Error: 'str' object has no attribute 'geometry'", "Error: 'str' object has no attribute 'geometry'"], [False, False, False], [True, "Error: check_point() got an unexpected keyword argument 'name'", True], ["Error: 'str' object has no attribute 'records'", "Error: check_point() got an unexpected keyword argument 'name'", "Error: 'str' object has no attribute 'records'"], ['Error: string indices must be integers', "Error: check_point() got an unexpected keyword argument 'name'", 'Error: string indices must be integers'], [False, False], [False, False], ['Error: the JSON object must be str, bytes or bytearray, not Polygon', 'Error: the JSON object must be str, bytes or bytearray, not Polygon'], [True, True], [False, False], ['Error: One of the arguments is of incorrect type. Please provide only Geometry objects.', 'Error: One of the arguments is of incorrect type. Please provide only Geometry objects.'], ["Error: module 'geopandas' has no attribute 'points'", "Error: module 'geopandas' has no attribute 'points'"], [False, False], [False, False], [False, False], [False, False], [True, True], ["Error: geocode_to_gdf() got an unexpected keyword argument 'geocoder'", "Error: geocode_to_gdf() got an unexpected keyword argument 'geocoder'"], ["Error: module 'osmnx.geocoder' has no attribute 'geocode_osm'", "Error: module 'osmnx.geocoder' has no attribute 'geocode_osm'"], ["Error: cannot import name 'geocoder_to_gdf' from 'osmnx' (/home/pgramacki/projects/geo-code-llm/.venv/lib/python3.9/site-packages/osmnx/__init__.py)", "Error: cannot import name 'geocoder_to_gdf' from 'osmnx' (/home/pgramacki/projects/geo-code-llm/.venv/lib/python3.9/site-packages/osmnx/__init__.py)", "Error: cannot import name 'geocoder_to_gdf' from 'osmnx' (/home/pgramacki/projects/geo-code-llm/.venv/lib/python3.9/site-packages/osmnx/__init__.py)"], ["Error: cannot import name 'geocoding' from 'osmnx' (/home/pgramacki/projects/geo-code-llm/.venv/lib/python3.9/site-packages/osmnx/__init__.py)", "Error: cannot import name 'geocoding' from 'osmnx' (/home/pgramacki/projects/geo-code-llm/.venv/lib/python3.9/site-packages/osmnx/__init__.py)", "Error: cannot import name 'geocoding' from 'osmnx' (/home/pgramacki/projects/geo-code-llm/.venv/lib/python3.9/site-packages/osmnx/__init__.py)"], ['Error: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().'], ['Error: Error tokenizing data. C error: Expected 2 fields in line 4, saw 6\n'], [False], ["Error: No module named 'movingpandas.trajectories'"], ["Error: unsupported operand type(s) for /: 'numpy.ndarray' and 'Timestamp'"], ['Error: Error tokenizing data. C error: Expected 2 fields in line 4, saw 6\n'], [False], ['Error: Error tokenizing data. C error: Expected 2 fields in line 4, saw 6\n'], ['Error: '], ['Error: Error tokenizing data. C error: Expected 2 fields in line 4, saw 6\n'], ['Error: '], ["Error: module 'movingpandas' has no attribute 'read_postgis'"], ['Execution error', 'Execution error', 'Execution error', 'Execution error'], ["Error: 'tuple' object has no attribute 'iloc'", "Error: 'tuple' object has no attribute 'iloc'", "Error: 'tuple' object has no attribute 'iloc'", "Error: 'tuple' object has no attribute 'iloc'"]]
+Testing model: meta-llama_Meta-Llama-3-8B
+(id=1.1)Expected: 1, got: 1.0
+(id=1.1)Expected: 2, got: 2.0
+Error while executing test: 'area'
+(id=1.2)Expected: 1, got: 'area'
+Error while executing test: 'area'
+(id=1.2)Expected: 2, got: 'area'
+Error while executing test: 'area'
+(id=1.3)Expected: 1, got: 'area'
+Error while executing test: 'area'
+(id=1.3)Expected: 2, got: 'area'
+(id=1.4)Expected: 1, got: 1.0
+(id=1.4)Expected: 2, got: 2.0
+Error while executing test: 'area'
+(id=1.5)Expected: 1, got: 'area'
+Error while executing test: 'area'
+(id=1.5)Expected: 2, got: 'area'
+Error while executing test: string indices must be integers
+(id=1.6)Expected: 1, got: string indices must be integers
+Error while executing test: string indices must be integers
+(id=1.6)Expected: 2, got: string indices must be integers
+(id=2.1)Expected: 0.25, got: 0.0
+(id=2.1)Expected: 0.5, got: 1.0
+(id=2.2)Expected: 0.25, got: 0.0
+(id=2.2)Expected: 0.5, got: 0.2608695652173913
+Error while executing test: name 'calculate_intersection_area' is not defined
+(id=2.3)Expected: 0.25, got: name 'calculate_intersection_area' is not defined
+Error while executing test: name 'calculate_intersection_area' is not defined
+(id=2.3)Expected: 0.5, got: name 'calculate_intersection_area' is not defined
+(id=2.4)Expected: 0.25, got: 0.25
+(id=2.4)Expected: 0.5, got: 0.35294117647058826
+(id=2.5)Expected: 0.25, got: 0.25
+(id=2.5)Expected: 0.5, got: 0.5
+Error while executing test: name 'read_buildings' is not defined
+(id=2.6)Expected: 0.25, got: name 'read_buildings' is not defined
+Error while executing test: name 'read_buildings' is not defined
+(id=2.6)Expected: 0.5, got: name 'read_buildings' is not defined
+(id=3.1)Expected: 3, got: 0
+(id=3.1)Expected: 2, got: 0
+Error while executing test: name 'load_points' is not defined
+(id=3.2)Expected: 3, got: name 'load_points' is not defined
+Error while executing test: name 'load_points' is not defined
+(id=3.2)Expected: 2, got: name 'load_points' is not defined
+Error while executing test: name 'load_points' is not defined
+(id=3.3)Expected: 3, got: name 'load_points' is not defined
+Error while executing test: name 'load_points' is not defined
+(id=3.3)Expected: 2, got: name 'load_points' is not defined
+Error while executing code: module 'geopandas' has no attribute 'GeoDataFrames'
+Error while executing test: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+(id=3.5)Expected: 3, got: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+Error while executing test: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+(id=3.5)Expected: 2, got: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+Error while executing test: 'count'
+(id=3.6)Expected: 3, got: 'count'
+Error while executing test: 'count'
+(id=3.6)Expected: 2, got: 'count'
+Error while executing code: expected an indented block (<string>, line 13)
+Error while executing test: 'GeoDataFrame' object has no attribute 'x'
+(id=4.2)Expected: True, got: 'GeoDataFrame' object has no attribute 'x'
+Error while executing test: 'GeoDataFrame' object has no attribute 'x'
+(id=4.2)Expected: False, got: 'GeoDataFrame' object has no attribute 'x'
+Error while executing test: 'GeoDataFrame' object has no attribute 'is_point_present'
+(id=4.3)Expected: True, got: 'GeoDataFrame' object has no attribute 'is_point_present'
+Error while executing test: 'GeoDataFrame' object has no attribute 'is_point_present'
+(id=4.3)Expected: False, got: 'GeoDataFrame' object has no attribute 'is_point_present'
+Error while executing test: Array should be of object dtype
+(id=4.4)Expected: True, got: Array should be of object dtype
+Error while executing test: Array should be of object dtype
+(id=4.4)Expected: False, got: Array should be of object dtype
+Error while executing test: Array should be of object dtype
+(id=4.5)Expected: True, got: Array should be of object dtype
+Error while executing test: Array should be of object dtype
+(id=4.5)Expected: False, got: Array should be of object dtype
+Error while executing test: module 'geopandas' has no attribute 'contains'
+(id=4.6)Expected: True, got: module 'geopandas' has no attribute 'contains'
+Error while executing test: module 'geopandas' has no attribute 'contains'
+(id=4.6)Expected: False, got: module 'geopandas' has no attribute 'contains'
+(id=5)Expected: POINT (0 1), got: POINT (0 1)
+(id=5)Expected: POINT (1 0), got: POINT (1 0)
+(id=6.1)Expected: True, got: True
+(id=6.1)Expected: False, got: False
+(id=6.2)Expected: True, got: True
+(id=6.2)Expected: False, got: False
+(id=7.1)Expected: True, got: True
+(id=7.1)Expected: False, got: False
+(id=7.1)Expected: False, got: True
+(id=7.2)Expected: True, got: True
+(id=7.2)Expected: False, got: False
+(id=7.2)Expected: False, got: True
+(id=8.1)Expected: 0, got: 0.0
+(id=8.1)Expected: 1, got: 1.0
+(id=8.1)Expected: 1, got: 1.0
+(id=8.2)Expected: 0, got: 0.0
+(id=8.2)Expected: 1, got: 0.25
+(id=8.2)Expected: 1, got: 0.25
+(id=9.1)Expected: 81757ffffffffff, got: 81757ffffffffff
+(id=9.1)Expected: 82754ffffffffff, got: 82754ffffffffff
+(id=9.1)Expected: 83754efffffffff, got: 83754efffffffff
+(id=9.2)Expected: 81757ffffffffff, got: 81757ffffffffff
+(id=9.2)Expected: 82754ffffffffff, got: 82754ffffffffff
+(id=9.2)Expected: 83754efffffffff, got: 83754efffffffff
+Error while executing test: module 'h3' has no attribute 'cell_to_geo_bounds'
+(id=10)Expected: POLYGON ((1.2456980510072817 -1.667852447043259, 1.9211969045935866 -0.2548735255288649, 1.2017635601567977 0.9361637645983679, -0.1602034369452549 0.7197982113703898, -0.8199508788179312 -0.6593876817348934, -0.1336889125916513 -1.8554926185476668, 1.2456980510072817 -1.667852447043259)), got: module 'h3' has no attribute 'cell_to_geo_bounds'
+Error while executing test: module 'h3' has no attribute 'cell_to_geo_bounds'
+(id=10)Expected: POLYGON ((0.6243813819095283 0.1087813119690757, 0.7142709255340668 0.6751953147370924, 0.3201757867318896 0.9787908052924386, -0.1602034369452549 0.7197982113703898, -0.2508702091201494 0.1583300627614263, 0.1395985639515215 -0.1490765992924194, 0.6243813819095283 0.1087813119690757)), got: module 'h3' has no attribute 'cell_to_geo_bounds'
+Error while executing test: an integer is required
+(id=11)Expected: 396, got: an integer is required
+Error while executing test: an integer is required
+(id=11)Expected: 1707, got: an integer is required
+Error while executing test: an integer is required
+(id=11)Expected: 1, got: an integer is required
+Error while executing test: Input must be valid geometry objects: (-9.13, 38.71)
+(id=12.1.1)Expected: True, got: Input must be valid geometry objects: (-9.13, 38.71)
+Error while executing test: Input must be valid geometry objects: (13.59, 52.43)
+(id=12.1.1)Expected: True, got: Input must be valid geometry objects: (13.59, 52.43)
+Error while executing test: Input must be valid geometry objects: (-9.13, 38.71)
+(id=12.1.1)Expected: False, got: Input must be valid geometry objects: (-9.13, 38.71)
+(id=12.1.2)Expected: True, got: False
+(id=12.1.2)Expected: True, got: False
+(id=12.1.2)Expected: False, got: False
+(id=12.1.3)Expected: True, got: False
+(id=12.1.3)Expected: True, got: False
+(id=12.1.3)Expected: False, got: False
+(id=12.1.4)Expected: True, got: True
+(id=12.1.4)Expected: True, got: True
+(id=12.1.4)Expected: False, got: False
+Error while executing test: No module named 'geoplot.shapes'
+(id=12.1.5)Expected: True, got: No module named 'geoplot.shapes'
+Error while executing test: No module named 'geoplot.shapes'
+(id=12.1.5)Expected: True, got: No module named 'geoplot.shapes'
+Error while executing test: No module named 'geoplot.shapes'
+(id=12.1.5)Expected: False, got: No module named 'geoplot.shapes'
+Error while executing test: 'str' object has no attribute 'get'
+(id=12.1.6)Expected: True, got: 'str' object has no attribute 'get'
+Error while executing test: 'str' object has no attribute 'get'
+(id=12.1.6)Expected: True, got: 'str' object has no attribute 'get'
+Error while executing test: 'str' object has no attribute 'get'
+(id=12.1.6)Expected: False, got: 'str' object has no attribute 'get'
+(id=12.2.1)Expected: True, got: None
+(id=12.2.1)Expected: True, got: None
+(id=12.2.1)Expected: False, got: None
+(id=12.2.2)Expected: True, got: False
+(id=12.2.2)Expected: True, got: False
+(id=12.2.2)Expected: False, got: False
+(id=12.2.3)Expected: True, got: True
+(id=12.2.3)Expected: True, got: True
+(id=12.2.3)Expected: False, got: True
+Error while executing test: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+(id=12.2.4)Expected: True, got: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+Error while executing test: check_point() got an unexpected keyword argument 'name'
+(id=12.2.4)Expected: True, got: check_point() got an unexpected keyword argument 'name'
+Error while executing test: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+(id=12.2.4)Expected: False, got: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+Error while executing test: 'str' object has no attribute 'get'
+(id=12.2.5)Expected: True, got: 'str' object has no attribute 'get'
+Error while executing test: check_point() got an unexpected keyword argument 'name'
+(id=12.2.5)Expected: True, got: check_point() got an unexpected keyword argument 'name'
+Error while executing test: 'str' object has no attribute 'get'
+(id=12.2.5)Expected: False, got: 'str' object has no attribute 'get'
+Error while executing test: 'str' object has no attribute 'get'
+(id=12.2.6)Expected: True, got: 'str' object has no attribute 'get'
+Error while executing test: check_point() got an unexpected keyword argument 'name'
+(id=12.2.6)Expected: True, got: check_point() got an unexpected keyword argument 'name'
+Error while executing test: 'str' object has no attribute 'get'
+(id=12.2.6)Expected: False, got: 'str' object has no attribute 'get'
+Error while executing test: module 'geopandas' has no attribute 'Point'
+(id=13.1.1)Expected: Portugal, got: module 'geopandas' has no attribute 'Point'
+Error while executing test: module 'geopandas' has no attribute 'Point'
+(id=13.1.1)Expected: Germany, got: module 'geopandas' has no attribute 'Point'
+(id=13.1.2)Expected: Portugal, got: Portugal
+(id=13.1.2)Expected: Germany, got: Germany
+(id=13.1.3)Expected: Portugal, got: 3
+(id=13.1.3)Expected: Germany, got: 1
+(id=13.1.4)Expected: Portugal, got: 3
+(id=13.1.4)Expected: Germany, got: 1
+Error while executing test: No module named 'geoplot.colors'
+(id=13.1.5)Expected: Portugal, got: No module named 'geoplot.colors'
+Error while executing test: No module named 'geoplot.colors'
+(id=13.1.5)Expected: Germany, got: No module named 'geoplot.colors'
+Error while executing test: No module named 'geoplot.cook'
+(id=13.1.6)Expected: Portugal, got: No module named 'geoplot.cook'
+Error while executing test: No module named 'geoplot.cook'
+(id=13.1.6)Expected: Germany, got: No module named 'geoplot.cook'
+Error while executing test: Array should be of object dtype
+(id=13.2.1)Expected: Portugal, got: Array should be of object dtype
+Error while executing test: Array should be of object dtype
+(id=13.2.1)Expected: Germany, got: Array should be of object dtype
+(id=13.2.2)Expected: Portugal, got: 2
+(id=13.2.2)Expected: Germany, got: 1
+(id=13.2.3)Expected: Portugal, got: None
+(id=13.2.3)Expected: Germany, got: None
+(id=13.2.4)Expected: Portugal, got: Portugal
+(id=13.2.4)Expected: Germany, got: Germany
+(id=13.2.5)Expected: Portugal, got: None
+(id=13.2.5)Expected: Germany, got: None
+Error while executing test: cannot import name 'Collection' from 'shapely.geometry.collection' (/home/pgramacki/projects/geo-code-llm/.venv/lib/python3.9/site-packages/shapely/geometry/collection.py)
+(id=13.2.6)Expected: Portugal, got: cannot import name 'Collection' from 'shapely.geometry.collection' (/home/pgramacki/projects/geo-code-llm/.venv/lib/python3.9/site-packages/shapely/geometry/collection.py)
+Error while executing test: cannot import name 'Collection' from 'shapely.geometry.collection' (/home/pgramacki/projects/geo-code-llm/.venv/lib/python3.9/site-packages/shapely/geometry/collection.py)
+(id=13.2.6)Expected: Germany, got: cannot import name 'Collection' from 'shapely.geometry.collection' (/home/pgramacki/projects/geo-code-llm/.venv/lib/python3.9/site-packages/shapely/geometry/collection.py)
+Error while executing test: geocode() takes 1 positional argument but 2 were given
+(id=14.1)Expected: Portugal, got: geocode() takes 1 positional argument but 2 were given
+Error while executing test: geocode() takes 1 positional argument but 2 were given
+(id=14.1)Expected: Germany, got: geocode() takes 1 positional argument but 2 were given
+Error while executing test: name 'country_name' is not defined
+(id=14.2)Expected: Portugal, got: name 'country_name' is not defined
+Error while executing test: name 'country_name' is not defined
+(id=14.2)Expected: Germany, got: name 'country_name' is not defined
+(id=15.1)Expected: True, got: True
+(id=15.1)Expected: True, got: True
+(id=15.1)Expected: False, got: True
+(id=15.2)Expected: True, got: True
+(id=15.2)Expected: True, got: True
+(id=15.2)Expected: False, got: True
+Error while executing test: name 'movingpandas' is not defined
+(id=16.1)Expected: 16.24264, got: name 'movingpandas' is not defined
+Error while executing test: type object 'Trajectory' has no attribute 'from_dataframe'
+(id=16.3)Expected: 16.24264, got: type object 'Trajectory' has no attribute 'from_dataframe'
+Error while executing test: name 'movingpandas' is not defined
+(id=16.4)Expected: 16.24264, got: name 'movingpandas' is not defined
+Error while executing test: Error tokenizing data. C error: Expected 2 fields in line 4, saw 6
+
+(id=16.6)Expected: 16.24264, got: Error tokenizing data. C error: Expected 2 fields in line 4, saw 6
+
+Error while executing test: name 'movingpandas' is not defined
+(id=17.1)Expected: 900.0, got: name 'movingpandas' is not defined
+Error while executing test: type object 'Trajectory' has no attribute 'from_file'
+(id=17.3)Expected: 900.0, got: type object 'Trajectory' has no attribute 'from_file'
+Error while executing test: name 'movingpandas' is not defined
+(id=17.4)Expected: 900.0, got: name 'movingpandas' is not defined
+Error while executing test: module 'movingpandas' has no attribute 'load_geojson'
+(id=17.6)Expected: 900.0, got: module 'movingpandas' has no attribute 'load_geojson'
+Error while executing test: name 'movingpandas' is not defined
+(id=18.1)Expected: 0.018047, got: name 'movingpandas' is not defined
+Error while executing test: Error tokenizing data. C error: Expected 2 fields in line 4, saw 6
+
+(id=18.3)Expected: 0.018047, got: Error tokenizing data. C error: Expected 2 fields in line 4, saw 6
+
+Error while executing test: name 'movingpandas' is not defined
+(id=18.4)Expected: 0.018047, got: name 'movingpandas' is not defined
+Error while executing test: Error tokenizing data. C error: Expected 2 fields in line 4, saw 6
+
+(id=18.6)Expected: 0.018047, got: Error tokenizing data. C error: Expected 2 fields in line 4, saw 6
+
+Error while executing code: name 'Polygon' is not defined
+Error while executing test: name 'get_center_point' is not defined
+(id=20.1)Expected: (51.1089776, 17.0326689), got: name 'get_center_point' is not defined
+Error while executing test: name 'get_center_point' is not defined
+(id=20.1)Expected: (38.7077507, -9.1365919), got: name 'get_center_point' is not defined
+Error while executing test: name 'get_center_point' is not defined
+(id=20.1)Expected: (52.5108638, 13.3989421), got: name 'get_center_point' is not defined
+Error while executing test: name 'get_center_point' is not defined
+(id=20.1)Expected: (48.8588897, 2.3200410217200766), got: name 'get_center_point' is not defined
+[[True, True], ["Error: 'area'", "Error: 'area'"], ["Error: 'area'", "Error: 'area'"], [True, True], ["Error: 'area'", "Error: 'area'"], ['Error: string indices must be integers', 'Error: string indices must be integers'], [False, False], [False, False], ["Error: name 'calculate_intersection_area' is not defined", "Error: name 'calculate_intersection_area' is not defined"], [True, False], [True, True], ["Error: name 'read_buildings' is not defined", "Error: name 'read_buildings' is not defined"], [False, False], ["Error: name 'load_points' is not defined", "Error: name 'load_points' is not defined"], ["Error: name 'load_points' is not defined", "Error: name 'load_points' is not defined"], ['Execution error', 'Execution error'], ['Error: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().', 'Error: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().'], ["Error: 'count'", "Error: 'count'"], ['Execution error', 'Execution error'], ["Error: 'GeoDataFrame' object has no attribute 'x'", "Error: 'GeoDataFrame' object has no attribute 'x'"], ["Error: 'GeoDataFrame' object has no attribute 'is_point_present'", "Error: 'GeoDataFrame' object has no attribute 'is_point_present'"], ['Error: Array should be of object dtype', 'Error: Array should be of object dtype'], ['Error: Array should be of object dtype', 'Error: Array should be of object dtype'], ["Error: module 'geopandas' has no attribute 'contains'", "Error: module 'geopandas' has no attribute 'contains'"], [True, True], [True, True], [True, True], [True, True, False], [True, True, False], [True, True, True], [True, False, False], [True, True, True], [True, True, True], ["Error: module 'h3' has no attribute 'cell_to_geo_bounds'", "Error: module 'h3' has no attribute 'cell_to_geo_bounds'"], ['Error: an integer is required', 'Error: an integer is required', 'Error: an integer is required'], ['Error: Input must be valid geometry objects: (-9.13, 38.71)', 'Error: Input must be valid geometry objects: (13.59, 52.43)', 'Error: Input must be valid geometry objects: (-9.13, 38.71)'], [False, False, True], [False, False, True], [True, True, True], ["Error: No module named 'geoplot.shapes'", "Error: No module named 'geoplot.shapes'", "Error: No module named 'geoplot.shapes'"], ["Error: 'str' object has no attribute 'get'", "Error: 'str' object has no attribute 'get'", "Error: 'str' object has no attribute 'get'"], [False, False, False], [False, False, True], [True, True, False], ['Error: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().', "Error: check_point() got an unexpected keyword argument 'name'", 'Error: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().'], ["Error: 'str' object has no attribute 'get'", "Error: check_point() got an unexpected keyword argument 'name'", "Error: 'str' object has no attribute 'get'"], ["Error: 'str' object has no attribute 'get'", "Error: check_point() got an unexpected keyword argument 'name'", "Error: 'str' object has no attribute 'get'"], ["Error: module 'geopandas' has no attribute 'Point'", "Error: module 'geopandas' has no attribute 'Point'"], [True, True], [False, False], [False, False], ["Error: No module named 'geoplot.colors'", "Error: No module named 'geoplot.colors'"], ["Error: No module named 'geoplot.cook'", "Error: No module named 'geoplot.cook'"], ['Error: Array should be of object dtype', 'Error: Array should be of object dtype'], [False, False], [False, False], [True, True], [False, False], ["Error: cannot import name 'Collection' from 'shapely.geometry.collection' (/home/pgramacki/projects/geo-code-llm/.venv/lib/python3.9/site-packages/shapely/geometry/collection.py)", "Error: cannot import name 'Collection' from 'shapely.geometry.collection' (/home/pgramacki/projects/geo-code-llm/.venv/lib/python3.9/site-packages/shapely/geometry/collection.py)"], ['Error: geocode() takes 1 positional argument but 2 were given', 'Error: geocode() takes 1 positional argument but 2 were given'], ["Error: name 'country_name' is not defined", "Error: name 'country_name' is not defined"], [True, True, False], [True, True, False], ["Error: name 'movingpandas' is not defined"], ["Error: type object 'Trajectory' has no attribute 'from_dataframe'"], ["Error: name 'movingpandas' is not defined"], ['Error: Error tokenizing data. C error: Expected 2 fields in line 4, saw 6\n'], ["Error: name 'movingpandas' is not defined"], ["Error: type object 'Trajectory' has no attribute 'from_file'"], ["Error: name 'movingpandas' is not defined"], ["Error: module 'movingpandas' has no attribute 'load_geojson'"], ["Error: name 'movingpandas' is not defined"], ['Error: Error tokenizing data. C error: Expected 2 fields in line 4, saw 6\n'], ["Error: name 'movingpandas' is not defined"], ['Error: Error tokenizing data. C error: Expected 2 fields in line 4, saw 6\n'], ['Execution error', 'Execution error', 'Execution error', 'Execution error'], ["Error: name 'get_center_point' is not defined", "Error: name 'get_center_point' is not defined", "Error: name 'get_center_point' is not defined", "Error: name 'get_center_point' is not defined"]]
