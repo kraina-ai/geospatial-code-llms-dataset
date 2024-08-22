@@ -1,0 +1,15 @@
+datasets
+evalplus
+transformers
+accelerate
+geopandas
+bitsandbytes
+transformers-cfg
+ray[data,train,tune,serve]
+h3
+osmnx
+fiona
+jupyter
+matplotlib
+mapclassify
+folium

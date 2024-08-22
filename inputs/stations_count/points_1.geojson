@@ -1,0 +1,11 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type": "Feature", "properties": { "name": "p1" }, "geometry": { "type": "Point", "coordinates": [ 0.0, 0.0 ] } },
+{ "type": "Feature", "properties": { "name": "p2" }, "geometry": { "type": "Point", "coordinates": [ 1.0, 1.0 ] } },
+{ "type": "Feature", "properties": { "name": "p3" }, "geometry": { "type": "Point", "coordinates": [ 2.0, 2.0 ] } },
+{ "type": "Feature", "properties": { "name": "p4" }, "geometry": { "type": "Point", "coordinates": [ 3.0, 3.0 ] } },
+{ "type": "Feature", "properties": { "name": "p5" }, "geometry": { "type": "Point", "coordinates": [ 4.0, 4.0 ] } },
+{ "type": "Feature", "properties": { "name": "p6" }, "geometry": { "type": "Point", "coordinates": [ 5.0, 5.0 ] } }
+]
+}

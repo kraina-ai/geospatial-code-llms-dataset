@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type": "Feature", "properties": { "t": "2018-01-01T12:00:00" }, "geometry": { "type": "Point", "coordinates": [ 0.0, 0.0 ] } },
+{ "type": "Feature", "properties": { "t": "2018-01-01T12:06:00" }, "geometry": { "type": "Point", "coordinates": [ 6.0, 0.0 ] } },
+{ "type": "Feature", "properties": { "t": "2018-01-01T12:10:00" }, "geometry": { "type": "Point", "coordinates": [ 6.0, 6.0 ] } },
+{ "type": "Feature", "properties": { "t": "2018-01-01T12:15:00" }, "geometry": { "type": "Point", "coordinates": [ 9.0, 9.0 ] } }
+]
+}
